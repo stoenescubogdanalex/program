@@ -7,6 +7,7 @@
 - [Courses Overview](courses/README.md)
 
 - [Pre-Course](courses/pre-course/README.md)
+  - [Pre-Assignment](courses/pre-course/pre-assignment/README.md)
   - [Self Study](courses/pre-course/self-study/README.md)
 
 - [Foundation](courses/foundation/README.md)
