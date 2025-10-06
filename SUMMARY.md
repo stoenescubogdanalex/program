@@ -128,4 +128,5 @@
 
 ## Guidelines
 
+- [Code of Conduct](guidelines/code-of-conduct.pdf)
 - [Using Generative AI at HackYourFuture](guidelines/ai-usage.md)
