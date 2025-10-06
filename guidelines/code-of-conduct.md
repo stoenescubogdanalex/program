@@ -8,23 +8,22 @@ This Code of Conduct outlines our expectations for all those who participate in 
 
 Part of the HackYourFuture community (hereinafter HYF community) are: every student, mentor, external partner and sta. This is what we expect:
 
-* Exercise consideration and respect in your speech and actions.
-* Attempt collaboration before conflict.
-* Refrain from demeaning, discriminatory, or harassing behavior and speech.
-* Be kind to others. Behave professionally. Do not insult or put down other attendees.
-* Be careful in the words that you choose, both in direct and online communication. Remember that sexist, racist, and other exclusionary jokes can be offensive to those around you. Think twice before posting videos/pictures/jokes, and ask yourself if they could be offensive to someone in the community.
-* Remind yourself that it’s not you who decides what’s offensive, it’s the person/group who’s offended and we ask you to respect this.
-* Be mindful of your surroundings and of your fellow participants. Alert
-HackYourFuture Sta if you notice a dangerous situation, someone in
-distress, or violations of this Code of Conduct, even if they seem
-inconsequential.
+- Exercise consideration and respect in your speech and actions.
+- Attempt collaboration before conflict.
+- Refrain from demeaning, discriminatory, or harassing behavior and speech.
+- Be kind to others. Behave professionally. Do not insult or put down other attendees.
+- Be careful in the words that you choose, both in direct and online communication. Remember that sexist, racist, and other exclusionary jokes can be offensive to those around you. Think twice before posting videos/pictures/jokes, and ask yourself if they could be offensive to someone in the community.
+- Remind yourself that it’s not you who decides what’s offensive, it’s the person/group who’s offended and we ask you to respect this.
+- Be mindful of your surroundings and of your fellow participants. Alert
+  HackYourFuture Sta if you notice a dangerous situation, someone in
+  distress, or violations of this Code of Conduct, even if they seem
+  inconsequential.
 
 ## Unacceptable Behavior
 
 Unacceptable behaviors include: intimidating, harassing, abusive, discriminatory, derogatory or demeaning speech or actions by any participant in our Sunday classes, in the online community, at all related events and in one-on-one communications carried out in the context of HackYourFuture.
 
 Harassment includes offensive, harmful or prejudicial verbal/electronic comments related to gender, personal characteristics or choices, sexual images or comments in public or online spaces, deliberate intimidation, bullying, stalking, following, harassing photography or recording, sustained disruption of talks, physical meetings or other events, inappropriate physical contact, or unwelcome sexual attention.
-
 
 ## Consequences of Unacceptable Behavior
 
