@@ -64,8 +64,8 @@ There are a few good extensions or middleware that is easy to plug into express 
 ### Relevant links
 
 - [Preparation](preparation.md)
-- [Homework](homework/README.md)
-- [Lesson plan](lesson-plan.md)
+- [Assignment](./assignment.md)
+- [Session plan](./session-plan.md)
 
 ### Express.js
 

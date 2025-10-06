@@ -197,4 +197,3 @@ Your usage of Knex should be getting a bit more advanced now. You will move from
 - `.del` (for deletion)
 
 Check out the [Knex cheatsheet](https://devhints.io/knex)!
-

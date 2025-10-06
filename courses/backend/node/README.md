@@ -4,10 +4,10 @@ This module is part of the Backend specialism and focuses on using Node.js to bu
 
 ## Contents
 
-| Week | Topic                    | Preparation                         | Lesson Plan                          | Assignment                          |
-| ---- | ------------------------ | ----------------------------------- | ------------------------------------ | ----------------------------------- |
-| 1.   | Express                  | [Preparation](week1/preparation.md) | [Homework](week1/homework/README.md) | [Lesson plan](week1/lesson-plan.md) |
-| 2.   | Database connection; API | [Preparation](week2/preparation.md) | [Homework](week2/homework/README.md) | [Lesson plan](week2/lesson-plan.md) |
+| Week | Topic                    | Preparation                         | Lesson Plan                         | Assignment                            |
+| ---- | ------------------------ | ----------------------------------- | ----------------------------------- | ------------------------------------- |
+| 1.   | Express                  | [Preparation](week1/preparation.md) | [Assignment](./week1/assignment.md) | [Session plan](week1/session-plan.md) |
+| 2.   | Database connection; API | [Preparation](week2/preparation.md) | [Assignment](./week1/assignment.md) | [Session plan](week2/session-plan.md) |
 
 ## Module Learning Goals
 
