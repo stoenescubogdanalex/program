@@ -22,16 +22,15 @@
     - [Live coding: why route order matters](#route-order)
     - Logging and debugging
   - Middleware
-    - `next` method
+    - [`next` method](https://expressjs.com/en/guide/using-middleware.html)
     - Modifying `request` and `response`
     - <https://fullstackopen.com/en/part3/node_js_and_express#express>
-    - [Live coding](#middleware)
-    - Exercise
+    - [Live coding: basic middleware example](#middleware)
 - Postman
   - Create collection and save queries
-  - Sending get requests requests
-    - Query parameters
-    - Parameters
+  - Sending `GET` requests
+    - Query parameters in Postman
+    - URL parameters in Postman
 
 ## Exercises
 
@@ -88,4 +87,12 @@ node --watch examples/route-order.js
 
 ### Middleware
 
-Run using `nodemon ./src/backend/middleware.js`. Try and implement this functionality from the bottom while explaining.
+Middleware is a generic term used for any software that acts as a connector between two other bits of software. In Express world, middleware is a layer that can be injected between a request and response and perform additional tasks.
+
+You can find out more about Express middleware in the [Express middleware documentation](https://expressjs.com/en/guide/using-middleware.html).
+
+Code example of a sample middleware can be found in the [middleware file](../module-materials/examples/middleware.js)
+
+```js
+node --watch examples/middleware.js
+```
