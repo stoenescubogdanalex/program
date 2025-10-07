@@ -199,13 +199,3 @@ You should try to avoid using `knex.raw` and instead use the different `knex` fu
 - `.del` (for deletion)
 
 Check out the [Knex cheatsheet](https://devhints.io/knex)!
-
-## Hand in homework
-
-Need to brush up on the homework hand-in process?
-
-Check [this resource](https://github.com/HackYourFuture-CPH/Git/blob/main/homework-submission.md) to remember how to hand in the homework correctly!
-
-## Feedback
-
-And finally, please take two minutes to answer the survey [here](https://forms.gle/YG5KCnSCPhb8dJAL9) to give feedback to the staff and mentors.

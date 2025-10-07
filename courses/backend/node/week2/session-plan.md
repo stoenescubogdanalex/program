@@ -56,5 +56,3 @@ The following two routes have been created, get help by the students to create s
 | `api/contacts/{id}` | GET    | Returns contact by `id`     | `GET api/contacts/2` |
 | `api/contacts/{id}` | PUT    | Updates the contact by `id` | `PUT api/contacts/2` |
 | `api/contacts/{id}` | DELETE | Deletes the contact by `id` | `DELETE contacts/2`  |
-
-Thank you very much for teaching NodeJS. Please don't hesitate to give feedback by clicking [here](https://forms.gle/sAuVhsTmJ1qSmjgJ6) (teachers and teacher assistants). For homework reviewers, please access the survey [here](https://forms.gle/nVbX9ShusF2a5Aa87).
