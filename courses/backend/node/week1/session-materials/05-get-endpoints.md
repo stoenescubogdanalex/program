@@ -1,4 +1,4 @@
-# API
+# GET endpoints
 
 ## `GET /api/snippets`
 

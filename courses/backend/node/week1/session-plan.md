@@ -1,42 +1,43 @@
 # Session plan
 
-- Focus on having lots of in class exercises.
-- DON'T teach everything, let the students investigate topics on their own as well!
-- Focus on how to read documentation, google answers and google errors!!
-- Teach towards the students being able to solve the homework.
-
 ## Session Outline
 
 - Express
-  - What is Express
+  - What is Express (10 mins)
     - [Live coding: setup a server](./session-materials/01-server.md)
-  - Routing in Express
+    - [Excercise: create a local project and database schema](./session-materials/02-schema.md)
+  - Routing in Express (20 mins)
     - `app.use`
     - `app.get`
     - [Live coding: routing](#appget-vs-appuse)
-    - [Excercise: Setup routing](./session-materials/03-api.md)
-  - URL parameters in Express
+    - [Excercise: Setup routing](./session-materials/03-routing.md) (10 mins)
+  - URL parameters in Express (30 mins)
     - [Explanation and live coding](#query-parameters-vs-url-parameters)
+    - [Excercise: connect to the database](./session-materials/04-database-connection.md)
     - [Excercise: GET endpoints](./session-materials/05-get-endpoints.md)
-  - Route order
+  - Route order (15 mins)
     - [Live coding: why route order matters](#route-order)
     - Logging and debugging
-  - Middleware
+  - Middleware (15 mins)
     - [`next` method](https://expressjs.com/en/guide/using-middleware.html)
     - Modifying `request` and `response`
     - <https://fullstackopen.com/en/part3/node_js_and_express#express>
     - [Live coding: basic middleware example](#middleware)
-- Postman
+  - Authentication (30 mins)
+    - Authentication explanation
+    - [Excercise: implement authentication](./session-materials/06-auth.md)
+- Postman (30 mins)
   - Create collection and save queries
   - Sending `GET` requests
     - Query parameters in Postman
     - URL parameters in Postman
+  - Excercise: Test and save your queries
 
 ## Exercises
 
 1. [Server](./session-materials/01-server.md): Setup project
-1. [DB schema](./session-materials/02-schema.md): Setup MySQL database schema
-1. [API](./session-materials/03-api.md): Snippets API exercises
+2. [DB schema](./session-materials/02-schema.md): Setup MySQL database schema
+3. [API](./session-materials/03-api.md): Snippets API exercises
    - [POST endpoint](./session-materials/04-post-endpoint.md)
    - [GET endpoints](./session-materials/05-get-endpoints.md)
    - [Authentication](./session-materials/06-auth.md)
