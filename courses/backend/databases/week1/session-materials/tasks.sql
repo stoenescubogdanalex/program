@@ -55,7 +55,7 @@ INSERT INTO task (title, description, created, updated, due_date, status_id) VAL
 INSERT INTO task (title, description, created, updated, due_date, status_id) VALUES ('Wash the car', NULL, '2017-10-06 19:39:16', '2017-10-03 04:49:05', '2017-12-04 17:43:16', 2);
 INSERT INTO task (title, description, created, updated, due_date, status_id) VALUES ('Walk the dog', NULL, '2017-09-03 02:47:17', '2017-10-12 18:40:08', null, 3);
 INSERT INTO task (title, description, created, updated, due_date, status_id) VALUES ('Write a book', 'Maybe something about dragons?', '2017-10-11 06:14:01', '2017-10-17 12:19:08', '2017-12-21 20:18:05', 2);
-INSERT INTO task (title, description, created, updated, due_date, status_id) VALUES ('Do HackYourFuture homework', NULL, '2017-10-04 13:55:16', '2017-10-10 00:18:05', '2017-12-19 17:01:10', 1);
+INSERT INTO task (title, description, created, updated, due_date, status_id) VALUES ('Do HackYourFuture assignment', NULL, '2017-10-04 13:55:16', '2017-10-10 00:18:05', '2017-12-19 17:01:10', 1);
 INSERT INTO task (title, description, created, updated, due_date, status_id) VALUES ('Iron shirts', NULL, '2017-09-23 03:59:58', '2017-10-19 08:30:48', '2017-12-08 11:00:35', 3);
 INSERT INTO task (title, description, created, updated, due_date, status_id) VALUES ('Water the potted plants', 'Maybe they need fertilizer as well', '2017-09-29 23:38:42', '2017-10-08 04:24:53', null, 2);
 INSERT INTO task (title, description, created, updated, due_date, status_id) VALUES ('Buy wine for the birthday party', 'Both red and white wine', '2017-10-10 14:57:22', '2017-10-14 14:03:30', '2017-12-10 23:43:56', 2);

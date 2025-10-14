@@ -1,9 +1,9 @@
 # Session Plan
 
 - Focus on practical modeling exercises and SQL practice
-- Ensure students understand how to translate business requirements into database structures
+- Ensure trainees understand how to translate business requirements into database structures
 - Emphasize database design principles and when to use different relationships
-- Build toward the homework assignment step by step
+- Build toward the assignment step by step
 
 ## Table of Contents
 
@@ -19,8 +19,8 @@
 > [!NOTE]
 > Teaching Format:
 >
-> - **DEMO** = Mentor shows on screen, students observe
-> - **EXERCISE** = Students work on their own machines
+> - **DEMO** = Mentor shows on screen, trainees observe
+> - **EXERCISE** = Trainees work on their own machines
 
 ## Entity-Relationship Modeling
 
@@ -54,7 +54,7 @@
 
 ### EXERCISE 1: Database Creation (10/15 minutes)
 
-Using the ERD from the previous exercise, students need to write CREATE TABLE statements for storing users and tasks with statuses.
+Using the ERD from the previous exercise, trainees need to write CREATE TABLE statements for storing users and tasks with statuses.
 
 ```sql
 CREATE TABLE user (
@@ -242,7 +242,7 @@ It's good to know there are several types of JOINs: ![SQL Joins](./session-mater
 > ![TIP]
 > Provide the trainees with the sample inserts in [tasks.sql](session-materials/tasks.sql) to have more data in their database.
 
-**Students practice writing these queries using the sample data:**
+**Trainees practice writing these queries using the sample data:**
 
 1. Get all tasks assigned to a specific user name.
 2. Find all users working on the task 'Deploy to production'

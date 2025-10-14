@@ -2,7 +2,7 @@
 
 - The idea is to build on the previous week's knowledge, focusing on advanced database features and practical applications.
 - Use the same task database throughout all examples for consistency
-- Use problem-based approach: show issues, guide students to solutions
+- Use problem-based approach: show issues, guide trainees to solutions
 
 ## Requirements: Setup DB and start the example API
 
@@ -45,7 +45,7 @@ Other examples of questions we can answer with aggregates:
 
 ### Exercise: Write Your Own Aggregate Queries
 
-#### Students work with their tasks.sqlite3 from Week 1
+#### Trainees work with their tasks.sqlite3 from Week 1
 
 Write SQL queries to answer these questions:
 
@@ -110,7 +110,7 @@ Leak user data: <http://localhost:3000/api/search/vulnerable?query=%27%20UNION%2
 
 ### Exercise: SQL Injection Attack Practice
 
-#### Students try to exploit the vulnerable endpoint
+#### Trainees try to exploit the vulnerable endpoint
 
 Using the running API, try these attacks:
 
@@ -225,7 +225,7 @@ DATABASE_URL=postgresql://user:password@host:5432/database
 
 ##### Database Configuration Code
 
-Show the students how the code switches between databases:
+Show the trainees how the code switches between databases:
 
 ```javascript
 // example-api/index.js

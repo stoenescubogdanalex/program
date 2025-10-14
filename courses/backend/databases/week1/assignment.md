@@ -1,13 +1,13 @@
 # Assignment
 
-In this assignment, you'll practice working with the task management database we worked in class.
+In this assignment, you'll practice working with the task management database we worked in the session.
 The idea is for you to create a database from scratch, insert and update data writing queries, practice querying relationships, and finally modify the database schema to add new functionality.
 
 ## Getting Started
 
 > [!TIP]
 > If problems arise, remember you can ask on Slack for help.
-> We encourage you to create the DB from scratch, but you can also use the provided database, [tasks.sqlite3](./session-materials/tasks.sqlite3) which has the same content as the one created in class.
+> We encourage you to create the DB from scratch, but you can also use the provided database, [tasks.sqlite3](./session-materials/tasks.sqlite3) which has the same content as the one created in the session.
 
 [tasks.sql](./session-materials/tasks.sql) contains SQL statements to create a database.
 
