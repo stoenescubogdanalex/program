@@ -183,7 +183,7 @@ We're going to recreate our local SQLite database to a remote PostgreSQL databas
 
 **Step 1: Create Postgres DB on Render**
 
-Follow the steps from the hyf-project-template: https://github.com/HackYourFuture-CPH/hyf-project-template/tree/main/api#deploying
+Follow the steps from the hyf-project-template: <https://github.com/HackYourFuture-CPH/hyf-project-template/tree/main/api#deploying>
 
 **Step 2: Recreate Database using DBeaver**
 
