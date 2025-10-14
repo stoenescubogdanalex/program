@@ -48,7 +48,7 @@ Total: 16 weeks
   - [ ] Describe how Large Language Models (LLMs) work at a basic level.
   - [ ] Explain what Generative AI (AI) is, what it's good at, and its limitations.
   - [ ] Identify appropriate and inappropriate uses of AI in the workplace.
-  - [ ] Understand how to use AI to support your learning, rather than limiting your growth
+  - [ ] Practice how you can use AI to help you learn effectively, rather than just providing answers.
   - [ ] Recognize common risks related to AI usage, such as bias, copyright, hallucinations, misinformation, and privacy concerns.
   - [ ] Reflect on how AI is changing work and skill expectations (and what we don't know yet!).
 - [ ] Prompting:
@@ -78,11 +78,11 @@ Total: 16 weeks
 
 ### [Databases](/courses/foundation/databases)
 
-- [ ] Explain what a database is
+- [ ] Explain what a database is and why we use them
 - [ ] Understand basic relational data terminology: table, row, column, primary key, foreign key
 - [ ] Perform basic SQL operations: SELECT, INSERT, UPDATE, DELETE
 - [ ] Use simple filtering and sorting techniques
-- [ ] Design and understand simple schemas
+- [ ] Understand simple database design & schemas
 
 ### [Intro to Backend](/courses/foundation/intro-to-backend)
 
