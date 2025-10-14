@@ -1,8 +1,9 @@
 # Assignment
 
 > [!NOTE]
-> Assignments for week 1 through 3 are included in a separate repository.
+> Instructions for the assignments in week 1 to 3 are described in your hyf-assignment repo in the `space-galactica-app` directory.
 >
-> In this repository you'll be working on tasks in an existing project, hopefully making your assignments a little more realistic and fun!
+> In this directory you'll be working on tasks in an existing project, making your assignments a little more realistic and fun!
 
-Complete this week's tasks in the [React assignment project](https://github.com/HackYourFuture-CPH/react-1-hw)
+Complete the week 4 tasks described in the Space Galactica App.
+
