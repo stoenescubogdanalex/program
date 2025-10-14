@@ -177,6 +177,7 @@ Using the running API, try these attacks:
 
 > ![NOTE]
 > Guide the trainees through the steps, explaining each part.
+> You can choose to show it entirely and have them replicate later or to give them some time to follow along.
 
 We're going to recreate our local SQLite database to a remote PostgreSQL database on Render.com
 
