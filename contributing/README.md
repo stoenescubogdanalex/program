@@ -8,7 +8,7 @@ If you would like to take a more active role in contributing to this program as 
 
 ### 1. Sharing feedback
 
-After taking in a Sunday session, we strongly encourage mentors to evaluate how it went using the feedback form bookmarked in #mentorroom on Slack.
+After taking part in a Sunday session, we strongly encourage mentors to evaluate how it went using the feedback form bookmarked in #mentorroom on Slack.
 
 ### 2. Suggestions and improvements
 
