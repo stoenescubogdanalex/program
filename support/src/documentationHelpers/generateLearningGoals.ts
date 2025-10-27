@@ -15,22 +15,10 @@ import { fileURLToPath } from "url";
 import process from "process";
 import updateFileSection from "./updateFileSection.js";
 
+import programStructure from "./programStructure.json" with { type: "json" };
+import type { Course, ProgramStructure } from "./programStructure.js";
+
 const scriptDir = dirname(fileURLToPath(import.meta.url));
-
-type Course = {
-  readonly name: string;
-  readonly location: string;
-  readonly modules: readonly {
-    readonly name: string;
-    readonly location: string;
-  }[];
-};
-
-type ProgramStructure = {
-  readonly courses: readonly Course[];
-};
-
-const jsonPath = "programStructure.json";
 
 function extractLearningGoals(content: string): {
   readonly found: boolean;
@@ -114,13 +102,14 @@ if (!courseName) {
   process.exit(1);
 }
 
-const data = JSON.parse(await readFile(jsonPath, "utf-8")) as ProgramStructure;
-const course = data.courses.find((c) => c.name === courseName);
+const course = (programStructure as ProgramStructure).courses.find(
+  (c) => c.name === courseName,
+);
 
 if (!course) {
   console.log(
     "Course not found in json. Please provide one of:",
-    data.courses.map((c) => c.name).join(", "),
+    programStructure.courses.map((c) => c.name).join(", "),
   );
   process.exit(1);
 }

@@ -15,18 +15,8 @@ import fs, { type Dirent } from "fs";
 import path from "path";
 import process from "process";
 
-type ProgramStructure = {
-  readonly courses: readonly {
-    readonly name: string;
-    readonly location: string;
-    readonly modules: readonly {
-      readonly name: string;
-      readonly location: string;
-    }[];
-  }[];
-};
-
-const jsonPath = "programStructure.json";
+import programStructure from "./programStructure.json" with { type: "json" };
+import type { ProgramStructure } from "./programStructure.js";
 
 let rootDir = process.cwd();
 let debug = false;
@@ -88,15 +78,9 @@ const linkLine = (level: number, text: string, filePath: string): string =>
 
 // ---------------- Core ----------------
 function generateSummary(structure: ProgramStructure, rootDir: string): string {
-  if (!structure || !Array.isArray(structure.courses)) {
-    throw new Error("Invalid structure JSON: expected { courses: [...] }");
-  }
-
   const lines = [];
 
   for (const course of structure.courses) {
-    if (!course?.name || !course?.location) continue;
-
     const courseAbs = path.resolve(rootDir, course.location);
     const courseRel = toPosixFromRoot(courseAbs);
     if (debug)
@@ -106,10 +90,7 @@ function generateSummary(structure: ProgramStructure, rootDir: string): string {
     const courseLink = ensureReadmeLink(courseAbs, courseRel);
     lines.push(linkLine(0, course.name, courseLink));
 
-    const modules = Array.isArray(course.modules) ? course.modules : [];
-    for (const module of modules) {
-      if (!module?.name || !module?.location) continue;
-
+    for (const module of course.modules) {
       const modAbs = path.resolve(rootDir, module.location);
       const modRel = toPosixFromRoot(modAbs);
       if (debug)
@@ -184,9 +165,7 @@ function generateSummary(structure: ProgramStructure, rootDir: string): string {
 
 // ---------------- Run ----------------
 try {
-  const raw = fs.readFileSync(jsonPath, "utf8");
-  const structure = JSON.parse(raw) as ProgramStructure;
-  const md = generateSummary(structure, rootDir);
+  const md = generateSummary(programStructure as ProgramStructure, rootDir);
 
   process.stdout.write(md);
 } catch (err: any) {
