@@ -9,19 +9,24 @@
 
 import * as fs from "node:fs/promises";
 
+import { Octokit } from "octokit";
+const listContributors = (o: Octokit) =>
+  o.request("GET /repos/{owner}/{repo}/contributors");
+type Contributor = Awaited<ReturnType<typeof listContributors>>["data"][number];
+
 const fetch = global.fetch;
 
 // ---------------- CONFIG ----------------
 const REPO = "HackYourFuture-CPH/program";
 const PER_ROW = 6;
 const AVATAR_SIZE = 80;
-const EXCLUDE_LOGINS = [];
+const EXCLUDE_LOGINS: string[] = [];
 // ----------------------------------------
 
 const API_BASE = "https://api.github.com";
 
-function parseLinkHeader(link) {
-  const rels = {};
+function parseLinkHeader(link: string | null): Record<string, string> {
+  const rels: Record<string, string> = {};
   if (!link) return rels;
   link.split(",").forEach((part) => {
     const section = part.split(";");
@@ -33,9 +38,9 @@ function parseLinkHeader(link) {
   return rels;
 }
 
-async function fetchPaginated(url) {
-  let results = [];
-  let next = url;
+async function fetchPaginated<T>(url: string): Promise<T[]> {
+  let results: T[] = [];
+  let next: string | null = url;
   while (next) {
     const res = await fetch(next, {
       headers: { "User-Agent": "contributors-script" },
@@ -45,7 +50,7 @@ async function fetchPaginated(url) {
         `GitHub API error ${res.status} ${res.statusText} for ${next}`,
       );
     }
-    const page = await res.json();
+    const page = (await res.json()) as T[];
     results = results.concat(page);
     const link = res.headers.get("link");
     const rels = parseLinkHeader(link);
@@ -54,7 +59,7 @@ async function fetchPaginated(url) {
   return results;
 }
 
-function isBotLogin(login) {
+function isBotLogin(login: string): boolean {
   if (!login) return false;
   return (
     login.toLowerCase().endsWith("[bot]") ||
@@ -63,12 +68,12 @@ function isBotLogin(login) {
   );
 }
 
-function withAvatarSize(url, size) {
+function withAvatarSize(url: string, size: number): string {
   if (!url) return url;
   return url + (url.includes("?") ? `&s=${size}` : `?s=${size}`);
 }
 
-function chunk(array, size) {
+function chunk<T>(array: readonly T[], size: number): T[][] {
   const chunks = [];
   for (let i = 0; i < array.length; i += size) {
     chunks.push(array.slice(i, i + size));
@@ -76,9 +81,9 @@ function chunk(array, size) {
   return chunks;
 }
 
-async function fetchContributors(repo) {
+async function fetchContributors(repo: string): Promise<Contributor[]> {
   const url = `${API_BASE}/repos/${repo}/contributors?per_page=100&anon=false`;
-  const data = await fetchPaginated(url);
+  const data = await fetchPaginated<Contributor>(url);
   return data
     .map((c) => ({
       login: c.login,
@@ -90,10 +95,12 @@ async function fetchContributors(repo) {
     .filter((c) => !!c.login);
 }
 
-function filterAndSortContributors(items) {
+function filterAndSortContributors(
+  items: readonly Contributor[],
+): Contributor[] {
   let list = items.filter((c) => {
     const excluded =
-      EXCLUDE_LOGINS.includes(c.login.toLowerCase()) || isBotLogin(c.login);
+      EXCLUDE_LOGINS.includes(c.login!.toLowerCase()) || isBotLogin(c.login!);
     const isUser = (c.type || "User") === "User";
     return isUser && !excluded;
   });
@@ -102,13 +109,13 @@ function filterAndSortContributors(items) {
   list.sort((a, b) => {
     const byContrib = (b.contributions || 0) - (a.contributions || 0);
     if (byContrib !== 0) return byContrib;
-    return a.login.localeCompare(b.login, "en");
+    return a.login!.localeCompare(b.login!, "en");
   });
 
   return list;
 }
 
-function renderMarkdown(contributors) {
+function renderMarkdown(contributors: readonly Contributor[]): string {
   const date = new Date().toISOString().split("T")[0];
   const total = contributors.length;
 
@@ -130,7 +137,7 @@ Total: **${total}** contributor${total === 1 ? "" : "s"}
     const avatarCells = row.map(
       (c) =>
         `[![${c.login}](${withAvatarSize(
-          c.avatar_url,
+          c.avatar_url!,
           AVATAR_SIZE,
         )})](${c.html_url})`,
     );
@@ -145,7 +152,10 @@ Total: **${total}** contributor${total === 1 ? "" : "s"}
   return out;
 }
 
-async function updateFileSection(contentToInsert, filename) {
+async function updateFileSection(
+  contentToInsert: string,
+  filename: string,
+): Promise<void> {
   const oldContent = await fs.readFile(filename, "utf-8");
 
   const matches = [
@@ -184,7 +194,7 @@ async function main() {
     const contributors = filterAndSortContributors(raw);
     const md = renderMarkdown(contributors);
     await updateFileSection(md, "./contributing/contributors.md");
-  } catch (err) {
+  } catch (err: any) {
     console.error("Error:", err.message);
     process.exit(1);
   }

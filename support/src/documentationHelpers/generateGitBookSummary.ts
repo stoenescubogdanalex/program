@@ -11,9 +11,20 @@
  *   npm run generate:gitbook-summary
  */
 
-import fs from "fs";
+import fs, { type Dirent } from "fs";
 import path from "path";
 import process from "process";
+
+type ProgramStructure = {
+  readonly courses: readonly {
+    readonly name: string;
+    readonly location: string;
+    readonly modules: readonly {
+      readonly name: string;
+      readonly location: string;
+    }[];
+  }[];
+};
 
 const jsonPath = "programStructure.json";
 
@@ -21,14 +32,15 @@ let rootDir = process.cwd();
 let debug = false;
 
 // ---------------- Helpers ----------------
-const toPosix = (p) => p.split(path.sep).join("/");
-const posixJoin = (...parts) => toPosix(path.join(...parts));
-const toPosixFromRoot = (absPath) => {
+const toPosix = (p: string): string => p.split(path.sep).join("/");
+const posixJoin = (...parts: readonly string[]): string =>
+  toPosix(path.join(...parts));
+const toPosixFromRoot = (absPath: string): string => {
   const rel = path.relative(rootDir, absPath);
   return rel ? toPosix(rel) : ".";
 };
 
-const exists = (p) => {
+const exists = (p: string): boolean => {
   try {
     fs.accessSync(p, fs.constants.F_OK);
     return true;
@@ -37,25 +49,25 @@ const exists = (p) => {
   }
 };
 
-const listDirents = (dir) =>
+const listDirents = (dir: string): Dirent[] =>
   exists(dir) ? fs.readdirSync(dir, { withFileTypes: true }) : [];
-const listDirs = (dir) =>
+const listDirs = (dir: string): string[] =>
   listDirents(dir)
     .filter((d) => d.isDirectory())
     .map((d) => d.name);
-const listFiles = (dir) =>
+const listFiles = (dir: string): string[] =>
   listDirents(dir)
     .filter((d) => d.isFile())
     .map((d) => d.name);
 
-function ensureReadmeLink(baseAbsDir, relPosix) {
+function ensureReadmeLink(baseAbsDir: string, relPosix: string): string {
   const candidate = path.join(baseAbsDir, "README.md");
   if (exists(candidate)) return posixJoin(relPosix, "README.md");
   return relPosix;
 }
 
 // Case-insensitive resolver
-function resolveCaseInsensitive(absDir, wanted) {
+function resolveCaseInsensitive(absDir: string, wanted: string): string | null {
   const exact = path.join(absDir, wanted);
   if (exists(exact)) return wanted;
   const files = listFiles(absDir);
@@ -65,17 +77,17 @@ function resolveCaseInsensitive(absDir, wanted) {
 }
 
 const WEEK_RE = /^week(\d+)$/i;
-const weekNumber = (name) => {
+const weekNumber = (name: string): number | null => {
   const m = WEEK_RE.exec(name);
   return m ? parseInt(m[1], 10) : null;
 };
 
-const indent = (level) => "  ".repeat(level);
-const linkLine = (level, text, filePath) =>
+const indent = (level: number): string => "  ".repeat(level);
+const linkLine = (level: number, text: string, filePath: string): string =>
   `${indent(level)}- ${filePath ? `[${text}](${filePath})` : text}`;
 
 // ---------------- Core ----------------
-function generateSummary(structure, rootDir) {
+function generateSummary(structure: ProgramStructure, rootDir: string): string {
   if (!structure || !Array.isArray(structure.courses)) {
     throw new Error("Invalid structure JSON: expected { courses: [...] }");
   }
@@ -110,7 +122,7 @@ function generateSummary(structure, rootDir) {
       // discover week folders
       const weekFolders = listDirs(modAbs)
         .map((d) => ({ name: d, num: weekNumber(d) }))
-        .filter((w) => w.num !== null)
+        .filter((w): w is { name: string; num: number } => w.num !== null)
         .sort((a, b) => a.num - b.num);
 
       if (debug)
@@ -173,11 +185,11 @@ function generateSummary(structure, rootDir) {
 // ---------------- Run ----------------
 try {
   const raw = fs.readFileSync(jsonPath, "utf8");
-  const structure = JSON.parse(raw);
+  const structure = JSON.parse(raw) as ProgramStructure;
   const md = generateSummary(structure, rootDir);
 
   process.stdout.write(md);
-} catch (err) {
+} catch (err: any) {
   console.error("Error:", err.message);
   process.exit(1);
 }

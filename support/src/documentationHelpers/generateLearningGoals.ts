@@ -17,10 +17,25 @@ import { fileURLToPath } from "url";
 import process from "process";
 
 const scriptDir = dirname(fileURLToPath(import.meta.url));
-const jsonPath = "programStructure.json";
-const outputLines = [];
 
-function extractLearningGoals(content) {
+type ProgramStructure = {
+  readonly courses: readonly {
+    readonly name: string;
+    readonly location: string;
+    readonly modules: readonly {
+      readonly name: string;
+      readonly location: string;
+    }[];
+  }[];
+};
+
+const jsonPath = "programStructure.json";
+const outputLines: string[] = [];
+
+function extractLearningGoals(content: string): {
+  readonly found: boolean;
+  readonly goals: readonly string[];
+} {
   const sectionRegex = /#+\s*Learning goals\s*\n([\s\S]*?)(?=\n#+\s|$)/i;
   const match = content.match(sectionRegex);
 
@@ -36,8 +51,10 @@ function extractLearningGoals(content) {
   };
 }
 
-async function processCourse(courseName) {
-  const data = JSON.parse(await readFile(jsonPath, "utf-8"));
+async function processCourse(courseName: string): Promise<void> {
+  const data = JSON.parse(
+    await readFile(jsonPath, "utf-8"),
+  ) as ProgramStructure;
   const course = data.courses.find((c) => c.name === courseName);
 
   if (!course) {
