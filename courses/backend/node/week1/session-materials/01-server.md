@@ -7,7 +7,6 @@ mkdir nodejs-week1
 code nodejs-week1 # to open the folder in VS Code
 ```
 
-
 ---
 
 Initialize and install:
