@@ -126,7 +126,7 @@ Total: 16 weeks
 - [ ] Displaying external data
   - [ ] Fetch (No promise explanation! Focus on usage)
 
-### [Team Processes](/courses/foundation/intro-to-agile)
+### [Intro to Agile](/courses/foundation/intro-to-agile)
 
 - [ ] What is project management and why is it important
 - [ ] Understand the main principles and values of Agile
