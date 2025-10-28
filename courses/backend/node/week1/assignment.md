@@ -2,7 +2,7 @@
 
 As usual, create a PR in your HYF assignments repository.
 
-In the repository, create a `nodejs-week1` branch from `main` to work on the homework (`git checkout -b nodejs-week1` )
+In the repository, create a `nodejs-week1` branch from `main` to work on the assignment (`git checkout -b nodejs-week1` )
 
 ## Setup
 
