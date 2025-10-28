@@ -42,34 +42,6 @@ POST /api/snippets
 }
 ```
 
-But first, for Express to handle JSON requests, we need to add `app.use(express.json())` to `app.js`:
-
-```js
-// Contents of app.js
-
-import express from "express";
-const app = express();
-const port = process.env.PORT || 3000;
-
-app.use(express.json());
-
-app.get("/", (req, res) => {
-  res.send("Hello Class!");
-});
-
-// Rest of the file...
-```
-
----
-
-One remaining thing in the setup is to actually use the router we're exporting from `api/snippets.js`.
-Inside `app.js`, below `app.use(express.json())`, add the following:
-
-```js
-import snippetsRouter from "./api/snippets.js";
-app.use("/api/snippets", snippetsRouter);
-```
-
 ---
 
 **Task:** when we now make a request like
