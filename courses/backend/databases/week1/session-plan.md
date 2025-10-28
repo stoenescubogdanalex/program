@@ -63,7 +63,7 @@ sqlite3 tasks.sqlite3 < session-materials/tasks-solution.sql
 
 ### EXERCISE 1: Database Creation (10/15 minutes)
 
-Using the ERD from the previous exercise, trainees need to write CREATE TABLE statements for storing users and tasks with statuses.
+Trainees should now create their own `tasks.sqlite3` database under the `databases/database` directory in their assignment repo. Using the ERD from the previous exercise, trainees need to write suitable CREATE TABLE statements for storing users and tasks with statuses.
 
 ```sql
 CREATE TABLE user (
@@ -93,7 +93,7 @@ CREATE TABLE task (
 
 ```shell
 # Create a new SQLite database file or use a GUI tool
-touch test.sqlite3
+touch tasks.sqlite3
 
 # Create users table
 CREATE TABLE user (
