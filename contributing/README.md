@@ -26,7 +26,7 @@ Permissions are managed through GitHub teams, their roles on this repo, and bran
 
 - _HYF Staff_ members have the admin role (to do things like changing repo settings, inviting new contributors).
 - Members of the _Curriculum Crew_ team on GitHub have the write role (to do things like cloning, pushing branches, approving PRs - any volunteer is welcome here!).
-- One approval by anyone in _Curriculum Crew_ or _HYF Staff_ are required on a PR before merging is allowed.
+- One approval by anyone in _Curriculum Crew_ or _HYF Staff_ is required on a PR before merging is allowed.
 - Merging to `main` can be performed by any _HYF Staff_ member.
 
 ## Setting up and using your local environment
