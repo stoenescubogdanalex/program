@@ -228,8 +228,9 @@ console.log(lastUser);
 3. Also inside the folder create a new JavaScript file called "pizza.js"
 4. Remember to Include the pizza.js script in the html file
 5. Write a log statement, so you know that your javascript code is running:
-   
+
    `console.log("I love pizza");`
+
 6. Create a variable to store the name of your favourite pizza
 7. Create a variable to store the price of the pizza
 8. Now log a statement to the console that will show the chef the entire pizza order in a language they understand, e.g. like this:
@@ -246,4 +247,5 @@ Now we will modify the program so you can order multiple pizzas and decide wheth
 4. Modify the log statement for the chef so it includes whether or not the order is for takeaway, and now show the total price of the order:
 
    `New pizza order (takeaway: <takeaway or not?>): <amount of pizzas> <name of pizza>. Total cost for the order is: <total price>`
+
 5. Try to change the price of the pizza and then check if the total price is calculated correctly
