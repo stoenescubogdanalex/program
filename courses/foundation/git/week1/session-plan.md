@@ -91,9 +91,20 @@ These are some examples of previously created materials by mentors that you can 
     - Your "copy" of a source repository
     - How forks are useful for collaboration
 
-### Exercise 1: Assignments repository
+### Exercise 1:
 
-**Objective:** Create a repository on your GitHub following the instructions from [hyf-assignment-template](https://github.com/HackYourFuture-CPH/hyf-assignment-template). Then you will add the session exercises from the previous week, to the `html-css/week1` folder, by first checking out to a new branch called `html-and-css`. Create a PR to your own repo introducing those changes to `main`. Finally, have the person on your right review this PR before you agree to merge it to `main`.
+**Objective:** The goal is to set up your assignment repository fork and create your first PR (Pull Request).
+
+> [!NOTE]
+> You will use this repository to hand in your assignments during the entire HackYourFuture program.
+
+1. Create a repository fork on your GitHub and clone it locally, following the instructions from [HackYourFuture-CPH/hyf-assignment-template](https://github.com/HackYourFuture-CPH/hyf-assignment-template)
+2. Check out to a new branch called `html-and-css`
+3. Add the session exercises from the previous week to the `html-css/week1` folder
+4. Create a PR (Pull Request) [to your own repository](https://github.com/HackYourFuture-CPH/hyf-assignment-template?tab=readme-ov-file#2-submission-process), from your `html-and-css` branch to merge changes into the `main` branch
+5. Finally, have the person on your right review this PR before you agree to merge it to `main`.
+
+**Tips for this exercise:**
 
 - Use descriptive `commit` messages
 - Make a commit for each folder/exercise you add (makes it easier to track changes/updates)
