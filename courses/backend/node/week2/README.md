@@ -11,24 +11,19 @@ In this session we will focus on connecting to a database, building an API, and 
 ## Session Learning goals
 
 By the end of this session, you will be able to:
-TODO - Format as `verb` for API section
 
-- [ ] Learn how to manage advanced database interactions in your service
-  - [ ] Set up a connection to your mysql database using Knex
-  - [ ] Configure environment variables
-  - [ ] Execute `select`, `create`, `delete` and `update` queries using Knex
-- [ ] API
-  - [ ] REST
-  - [ ] CRUD
-    - [ ] Router verb `GET`, `POST`, `DELETE`, `PUT`
-    - [ ] POST mention express.json middleware
-  - [ ] Configure Postman for advanced backend development
-    - [ ] Creating collections and saving requests
-    - [ ] Set up multiple environments
-    - [ ] Managing secrets
-    - [ ] Create basic test suites
-
-TODO - Move this content somewhere else
+- [ ] Manage advanced database interactions in your service
+  - [ ] Understand what Knex is and why to use it
+  - [ ] Set up connections to your database using Knex
+  - [ ] Execute `select`, `create`, `delete` and `update` queries using Knex Query Builder
+- [ ] Implement all REST endpoints using Express
+  - [ ] `POST`, `DELETE`, `PUT`
+  - [ ] Use appropriate error handling to understand and debug issues
+- [ ] Configure Postman for advanced backend development
+  - [ ] Creating collections and saving requests
+  - [ ] Set up multiple environments
+  - [ ] Managing secrets
+  - [ ] Create basic test suites
 
 ### 1. What is Representational State Transfer (REST)?
 

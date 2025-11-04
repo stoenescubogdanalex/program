@@ -2,17 +2,9 @@
 
 ## Session outline
 
-- Database interaction with Knex
-  - What is Knex and why are we using it
-  - Raw vs Query Builder methods
-  - Configuring Knex
-  - A refresher on CRUD
-    - `select`, `create`, `delete` and `update` with Knex
-    - [Code inspiration](#phonebook-database) especially focus on the promise and query part
-- Express APIs continued
-  - `POST`, `DELETE`, `PUT` requests
-- Advanced Postman use cases
-  - Collections, environments, secrets, test suites
+- [Database interaction with Knex](#database-interaction-with-knex)
+- [Snippets API continued](#snippets-api-continued)
+- [Advanced Postman use cases](#advanced-postman)
 
 ## Database interaction with Knex
 
@@ -20,9 +12,9 @@ Trainees have used Knex before. In foundation, they used it with the .raw() comm
 
 This part of the module should explain Knex in a lot more technical detail. The following implementation is how we expect to see trainees using database interaction from this point forward.
 
-TODO write some more content for these two bullet points
 1. Explain what Knex is in more detail, and why we are using it here
 2. Compare using .raw() to the Query Builder methods
+(TODO write some more content for these two bullet points to guide the mentor)
 
 ### Live coding
 
@@ -43,8 +35,7 @@ TODO: Add a section with live coding somewhere below to explain error handling? 
 2. [PUT endpoint exercise](./session-materials/08-put-endpoint.md)
 3. [DELETE endpoint exercise](./session-materials/09-delete-endpoint.md)
 
-
-## Postman
+## Advanced Postman
 
 Postman can be used for quickly testing your APIs, but can also be configured in more advanced ways to support your development workflow. Here, you'll learn about four ways to level up your Postman game.
 
