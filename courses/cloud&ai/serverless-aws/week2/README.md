@@ -4,7 +4,8 @@ This module allow you to build your own serverless application on AWS
 
 | Week | Topic | Content | Description |
 | ---- | ----- | ------- | ----------- |
-| 2.   | Workshop | Link coming soon | Hands-on serverless application workshop |
+| 2.   | Workshop |  [Getting started with serverless applications](https://catalog.us-east-1.prod.workshops.aws/workshops/c42525c3-ac8c-4ba6-acd7-378c5b6dd8ac/en-US) | Hands-on serverless application workshop |
+
 
 ## Learning goals
 
