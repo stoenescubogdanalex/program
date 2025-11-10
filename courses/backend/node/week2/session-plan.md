@@ -45,8 +45,6 @@ TODO: Add a section with live coding somewhere below to explain error handling? 
 
 Postman can be used for quickly testing your APIs, but can also be configured in more advanced ways to support your development workflow. Here, you'll learn about four ways to level up your Postman game.
 
-Note: These exericses could be demod by the mentor, or left to the trainees to do on their own machines. Or a mix of both, whatever feels natural.
-
 ### 1. Creating collections and saving requests
 
 Collections let you group related requests into a reusable library. This makes it easy to organize, run, and share sets of API calls. Read more on the [Official docs](https://learning.postman.com/docs/collections/collections-overview/).
