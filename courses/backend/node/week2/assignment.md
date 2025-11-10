@@ -1,51 +1,31 @@
 # Assignment
 
-Once again, you will deliver 2 pull requests:
+TODO - We should add a task to practice postman too. Maybe add all their final endpoints to their collection. And anything else in the session that we haven't covered here yet!
 
-- A pull request for the **Warmup** - in your regular hyf-homework repository
-- A pull request for the additional **meal sharing endpoints** - in the meal-sharing repository
+## Task 1
 
-In both repositories, create a `nodejs-week2` branch from `main` to work on the homework (`git checkout -b nodejs-week2` ).
+You'll set up and work with your own version of the Contacts API that you saw in the session.
 
-TODO - We should add a task to practice postman too. Maybe add all their final endpoints to their collection.
-
-## Warmup
-
-For the warmup you will be handed a Contacts API with a single endpoint:
+It will have one endpoint:
 
 - `GET /api/contacts`
 
-This endpoint accepts a query parameter `sort`. Here's how you can use it:
+This endpoint accepts a query parameter `sort`. Here's how it should be possible to use it:
 
 - `GET /api/contacts?sort=first_name%20ASC`
   - Sorts contacts by first name, ascending
 - `GET /api/contacts?sort=last_name%20DESC`
   - Sorts contacts by last name, descending
 
-But this `sort` query parameter has been introduced with a SQL injection vulnerability and the goal is to demonstrate the issue and then fix and remove the vulnerability.
+But this `sort` query parameter will introduce a security issue, an SQL injection will be possible. The goal is to demonstrate the issue and then fix it to remove the vulnerability.
 
 ### Setup
 
 TODO - Review assignment to work with sqlite.
 
-Go to `nodejs/week2` in your `hyf-homework` repo:
-
-```shell
-npm init -y
-npm i express mysql2 knex
-npm i --save-dev nodemon
-npm set-script dev "nodemon app.js"
-```
-
-Make sure you have `"type": "module"` in your `package.json`.
-
-You should also ensure that the `node_modules/` folder is ignored by Git:
-
-```shell
-echo node_modules/ >> .gitignore
-```
-
-Create a database/schema called `hyf_node_week2_warmup` with a `contacts` table:
+1. Go to/create a `node/week2` directory in your `hyf-assignment` repo.
+2. Create yourself a new node application
+3. Create a database called `phonebook` with a `contacts` table, with the following schema and data:
 
 ```sql
 CREATE TABLE `contacts` (
@@ -85,34 +65,18 @@ insert into contacts (id, first_name, last_name, email, phone) values (24, 'Raqu
 insert into contacts (id, first_name, last_name, email, phone) values (25, 'Tabor', 'Reavey', null, null);
 ```
 
-Create `app.js`:
+4. Set up Express and an Sqlite connection in your node application. In your knex instance, make sure to set: `multipleStatements: true` - this is important!
+
+5. Make sure you have an API router under the `/api` path set up like so:
 
 ```js
-import knex from "knex";
-const knexInstance = knex({
-  client: "mysql2",
-  connection: {
-    host: process.env.DB_HOST || "127.0.0.1",
-    port: process.env.DB_PORT || 3306,
-    user: process.env.DB_USER || "root",
-    password: process.env.DB_PASSWORD || "my-secret-pw",
-    database: process.env.DB_NAME || "hyf_node_week2_warmup",
-    multipleStatements: true,
-  },
-});
-
-import express from "express";
-const app = express();
-const port = process.env.PORT || 3000;
-
-app.use(express.json());
-
-const apiRouter = express.Router();
 app.use("/api", apiRouter);
+```
 
-const contactsAPIRouter = express.Router();
-apiRouter.use("/contacts", contactsAPIRouter);
+6. Create a contacts router at `/contacts`, and attach it to your API router.
+7. In your contacts API, create the following endpoint:
 
+```js
 contactsAPIRouter.get("/", async (req, res) => {
   let query = knexInstance.select("*").from("contacts");
 
@@ -133,17 +97,12 @@ contactsAPIRouter.get("/", async (req, res) => {
     res.status(500).json({ error: "Internal server error" });
   }
 });
-
-app.listen(port, () => {
-  console.log(`Listening on port ${port}`);
-});
 ```
 
 As mentioned above, the `sort` query parameter has been introduced with a SQL injection vulnerability.
 
-First, you should demonstrate the SQL injection and that it for instance is possible to drop/delete the `contacts` table with the `sort` query parameter.
-You can for instance demonstrate this with a screen recording and include it in the PR description.
+First, you should demonstrate the SQL injection and that, for instance, it is possible to drop/delete the `contacts` table with the `sort` query parameter. Capture this demonstration with a screen recording, and attach it to your PR when you submit your assignment.
 
-After having demonstrated the SQL injection vulnerability, the goal is then to fix the issue by updating `app.js`.
+After having demonstrated the SQL injection vulnerability, your task is then to fix the issue by updating `app.js`.
 
-**Hint:** the `multipleStatements: true` part in the configuration indicates how you can use the vulnerability. The configuration should not be changed though, the SQL injection should be fixed by making changes in the `/api/contacts` route.
+**Hint:** the `multipleStatements: true` part in the configuration indicates how you can use the vulnerability. The configuration should not be changed though, the SQL injection should be fixed by making changes in the `/api/contacts` route only.
