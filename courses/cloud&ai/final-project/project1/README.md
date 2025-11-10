@@ -1,6 +1,6 @@
 ## Project 1: Building Cloud Infrastracture & Application Deployment
 
-**Objective:** Deploy an existing application to AWS with proper cloud architecture
+**Objective:** Build and/or deploy an existing application to AWS with proper cloud architecture
 
 **Requirements:**
 
