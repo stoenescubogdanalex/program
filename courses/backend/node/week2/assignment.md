@@ -1,12 +1,8 @@
 # Assignment
 
-TODO - We should add a task to practice postman too. Maybe add all their final endpoints to their collection. And anything else in the session that we haven't covered here yet!
+You'll set up and work with your own version of a simple Contacts API.
 
-## Task 1
-
-You'll set up and work with your own version of the Contacts API that you saw in the session.
-
-It will have one endpoint:
+It will start with one endpoint (and you will add more throughout the task):
 
 - `GET /api/contacts`
 
@@ -17,9 +13,7 @@ This endpoint accepts a query parameter `sort`. Here's how it should be possible
 - `GET /api/contacts?sort=last_name%20DESC`
   - Sorts contacts by last name, descending
 
-But this `sort` query parameter will introduce a security issue, an SQL injection will be possible. The goal is to demonstrate the issue and then fix it to remove the vulnerability.
-
-### Setup
+## Setup
 
 1. Go to/create a `node/week2` directory in your `hyf-assignment` repo.
 2. Create yourself a new node application
@@ -97,10 +91,39 @@ contactsAPIRouter.get("/", async (req, res) => {
 });
 ```
 
-As mentioned above, the `sort` query parameter has been introduced with a SQL injection vulnerability.
+
+## The tasks
+
+### Task 1 - Solve the SQL injection
+
+The current implementation of the `sort` query parameter has introduced an SQL injection vulnerability.
 
 First, you should demonstrate the SQL injection and that, for instance, it is possible to drop/delete the `contacts` table with the `sort` query parameter. Capture this demonstration with a screen recording, and attach it to your PR when you submit your assignment.
 
-After having demonstrated the SQL injection vulnerability, your task is then to fix the issue by updating `app.js`.
+After having demonstrated the SQL injection vulnerability, your task is then to fix the issue. Your solution should be solved in the `app.js` file only. While the the `multipleStatements: true` configuration you used enables this vulnerability, it should not be changed in your solution.
 
-**Hint:** the `multipleStatements: true` part in the configuration indicates how you can use the vulnerability. The configuration should not be changed though, the SQL injection should be fixed by making changes in the `/api/contacts` route only.
+### Task 2 - Improve your API
+
+Create two additional endpoints to enable the following functionality:
+1. Create new contacts
+2. Delete an existing contact
+
+### Task 3 - Error handling
+
+Update your endpoints with appropriate error handling. You should, at least, handle the following cases:
+1. Successful requests
+2. Incorrect requests (e.g. an incorrectly formatted sort request)
+3. Server issues (e.g. a missing database table, or an offline database)
+4. A catch all for any other errors
+
+Remember to:
+1. Return the appropriate HTTP code
+2. Avoid sending any implementation or internal data to the client
+3. Log an appropriate message so you can debug issues that occur in your service
+
+### Task 3 - Postman
+
+1. Create a Postman collection to capture some example requests with your new API.
+2. Create a basic test suite that you can run to validate that everything is working correctly.
+
+Share both a link to your Collection and a link to a test run showing your tests passing in your pull request.
