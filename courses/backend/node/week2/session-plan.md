@@ -8,7 +8,7 @@
 
 ## Database interaction with Knex
 
-Trainees have used Knex before. In foundation, they used it with the .raw() command to execute SQL easily. And they also used it last week when learning about Express.
+Trainees have used Knex before. In foundation, they used it with the `.raw()` command to execute SQL easily. And they also used it last week when learning about Express.
 
 This part of the module should explain Knex in a lot more technical detail. The following implementation is how we expect to see trainees using database interaction from this point forward.
 
