@@ -12,13 +12,13 @@ Trainees have used Knex before. In foundation, they used it with the `.raw()` co
 
 This part of the module should explain Knex in a lot more technical detail. The following implementation is how we expect to see trainees using database interaction from this point forward.
 
-1. Explain what Knex is in more detail, and why we are using it here
+1. What is Knex, and why we need it
    - Knex is SQL query builder for Node, which helps us write databases queries more cleanly, without raw SQL.
    - It supports multiple databases (e.g. SQLite, Postgres) with the same API.
    - It helps avoid security issues like SQL injection by handling things safely for us.
    - It provides advanced features such as migrations.
 
-2. Compare using .raw() to the Query Builder methods
+2. Comparison: `.raw()` method vs. the Query Builder methods
    - `.raw()`, which you've been using so far, lets you run plain SQL
    - However, you lose the "single API" benefit of using Knex
    - You also lose the safety of Knex's security precautions regarding SQL injetion
