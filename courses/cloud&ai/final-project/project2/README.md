@@ -1,4 +1,4 @@
-## Project 2: AI-Powered Application with RAG/Agentic Capabilities
+# Project 2: AI-Powered Application with RAG/Agentic Capabilities
 
 **Objective:** Build and deploy an AI-powered application using modern AI techniques
 
