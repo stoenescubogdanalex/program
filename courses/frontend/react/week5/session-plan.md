@@ -69,7 +69,7 @@
 - Explain how to access various router properties (push, replace, etc.)
 - Demonstrate programmatic navigation using `router.push` and `router.replace`
 
-### Optional Advanced: Server Functions & API Routes
+### Advanced: Server Functions & API Routes
 
 #### Server Functions
 
