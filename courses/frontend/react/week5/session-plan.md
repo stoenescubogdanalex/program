@@ -85,8 +85,8 @@
 #### Server Actions
 
 - Introduce "Server Actions" as a specific type of Server Function
-- Provide context by mentioning plain old `<form>`s on the internet that are historically sent to a server for processing (we could say a "server function"!)
-- Explain how attaching a Server _Function_ to an `action` makes it a Server _Action_
+- Provide context by mentioning plain old `<form>`s on the internet that can be sent to a server for processing (we could call them "server functions"!)
+- Explain how attaching a Server _Function_ to a (form) `action` makes it a Server _Action_
 
 #### API Routes
 
@@ -101,18 +101,18 @@
 
 - Introduce Vercel as the company behind Next.js, as well as a provider of cloud infrastructure
 - Explain how Vercel's hosting options allow developers to host Next.js applications with very little effort
-- Highlight that hosting on Vercel is perfect for a prototype or portfolio website built with React and/or Next.js
+- Highlight that hosting on Vercel is a good fit for a prototype or portfolio website built with React and/or Next.js
 
 ### Connecting a GitHub Repository With Vercel
 
-- Demonstrate in the browser how a **public** GitHub repository from your account can be connected to Vercel and deployed with the click of a button
+- Demonstrate in the browser how a **public** GitHub repository from ones account can be connected to Vercel and deployed with the click of a button
 - Illustrate one way to get started with Vercel by installing the Vercel CLI globally `npm -g vercel`
 - Show logging in to Vercel using `vercel login` and using ones GitHub account
 - Show how one can deploy a local folder with a Next.js app using the `vercel deploy` CLI command
 
 ### Limitations of Vercel
 
-- Mention that Vercel apparently works best for hosting Next.js applications or static websites
+- Mention that Vercel probably works best for hosting Next.js applications or static websites
 - Discuss how other frameworks are supported, but that the focus is likely on Next.js
 - Mention that knowledge about DNS, domains, npm, dependencies etc. is not required, but useful when managing a site on Vercel
 - Highlight that Vercel is well-suited for production applications, but that prices can apparently vary a lot based on usage
