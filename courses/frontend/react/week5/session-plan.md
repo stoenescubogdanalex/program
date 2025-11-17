@@ -93,7 +93,7 @@
 - Explain how Next.js supports Server Actions and Server Components as React features
 - Introduce API routes as a concept from the backend side of web development
 - Provide an overview of [Route Handlers](https://nextjs.org/docs/app/getting-started/route-handlers) and how they allow to create an API route that returns JSON
-- _(The concept of APIs is covered in detail in the backend specialisation)_
+- [_(The concept of APIs is covered in detail in the backend specialization)_](/courses/backend/node/README.md)
 
 ## Vercel
 
