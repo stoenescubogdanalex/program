@@ -4,7 +4,7 @@
 
 These are some examples of previously created materials by mentors that you can use yourself, or for inspiration.
 
-- Web Architecture 101 ([key](session-materials/web-architecture-101.key), [pdf](session-materials/web-architecture-101.pdf), [zip](session-materials/web-architecture-101.zip) by [@rvedotrc](https://github.com/rvedotrc))
+- Intro to Web Architecture ([key](session-materials/web-architecture-101.key), [pdf](session-materials/web-architecture-101.pdf), [zip](session-materials/web-architecture-101.zip) by [@rvedotrc](https://github.com/rvedotrc))
 
 ## Session outline
 

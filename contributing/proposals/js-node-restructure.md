@@ -51,13 +51,13 @@ This is schemas for current module structures. I will use the same **color-codin
 
 Introduce small reusable logic/function tasks already in the final week (e.g., calculating prices, transforming arrays) and encourage saving the code — these will be reused in API or frontend in later modules.
 
-### 2. Module: Web Architecture 101
+### 2. Module: Intro to Web Architecture
 
 **Duration**: 1 week\
 **Purpose**: Introduce shared concepts between frontend and backend. Creates a unified mental model before Introductions for specialisations and removes duplicates from modules (like API explanations).\
 **Note**: It, probably, will require some new material there (we didn’t have architecture before), but we can always just stick to the topics that was introduced before in old modules.
 
-#### Topics for Web Architecture 101 [not limited to]
+#### Topics for Intro to Web Architecture [not limited to]
 
 - Client vs Server
 - What is Backend?
@@ -74,7 +74,7 @@ Introduce small reusable logic/function tasks already in the final week (e.g., c
 
 **Duration**: 1 week\
 **Purpose**: Provide a hands-on primer to backend development. Enables learners to build a basic working backend (simple CRUD server or even less).\
-**Reasoning**: Placing backend first in hands-on development allows learners to apply their JavaScript fundamentals while reinforcing their understanding of APIs introduced in Web Architecture 101. This progression is both natural and confidence-building: learners already know how to write logic, and now they can wrap it in endpoints (basically, another level of functions). Starting here also clarifies the API before they consume it from the frontend side.
+**Reasoning**: Placing backend first in hands-on development allows learners to apply their JavaScript fundamentals while reinforcing their understanding of APIs introduced in Intro to Web Architecture. This progression is both natural and confidence-building: learners already know how to write logic, and now they can wrap it in endpoints (basically, another level of functions). Starting here also clarifies the API before they consume it from the frontend side.
 
 #### Topics for Introduction to Backend
 
@@ -173,6 +173,6 @@ Introduce small reusable logic/function tasks already in the final week (e.g., c
 
 _Option 1_: It might be natural to introduce separate files in «Introduction to Backend», and then mention in «Introduction to Frontend» how it is solved there.
 
-_Option 2_: Introduce idea of structuring files (and import/export) on «Web Architecture 101» session.
+_Option 2_: Introduce idea of structuring files (and import/export) on «Introduction to Web Architecture» session.
 
 _Option 3_: Not to give this concept in Foundation, because it seems like it can be done in one file, and later they will have to have separate files in React / Node anyway.

@@ -4,19 +4,19 @@ Here you'll learn the fundamentals for how the web works, the basics of programm
 
 ## Modules
 
-| Name                                                     | Weeks           |
-| -------------------------------------------------------- | --------------- |
-| [HTML & CSS](./html-and-css/README.md)                   | 1               |
-| [Git](./git)                                             | 1               |
-| [Intro to Using AI](./intro-to-using-ai/README.md)       | 1               |
-| [Intro to JavaScript](./intro-to-javascript/README.md)   | 4               |
-| [Web Architecture 101](./web-architecture-101/README.md) | 1               |
-| [Databases](./databases/README.md)                       | 1               |
-| [Intro to Backend](./intro-to-backend/README.md)         | 1               |
-| [Intro to Frontend](./intro-to-frontend/README.md)       | 1               |
-| [Intro to Agile](./intro-to-agile/README.md)             | 1               |
-| [Career Training](./career-training/README.md)           | 3 (1 in person) |
-| [Final project](./final-project/README.md)               | 3               |
+| Name                                                               | Weeks           |
+| ------------------------------------------------------------------ | --------------- |
+| [HTML & CSS](./html-and-css/README.md)                             | 1               |
+| [Git](./git)                                                       | 1               |
+| [Intro to Using AI](./intro-to-using-ai/README.md)                 | 1               |
+| [Intro to JavaScript](./intro-to-javascript/README.md)             | 4               |
+| [Intro to Web Architecture](./intro-to-web-architecture/README.md) | 1               |
+| [Databases](./databases/README.md)                                 | 1               |
+| [Intro to Backend](./intro-to-backend/README.md)                   | 1               |
+| [Intro to Frontend](./intro-to-frontend/README.md)                 | 1               |
+| [Intro to Agile](./intro-to-agile/README.md)                       | 1               |
+| [Career Training](./career-training/README.md)                     | 3 (1 in person) |
+| [Final project](./final-project/README.md)                         | 3               |
 
 Total: 16 weeks
 
@@ -69,7 +69,7 @@ Total: 16 weeks
 - [ ] Understand global vs local scope
 - [ ] Using objects and arrays to store, access and manipulate more complex data
 
-### [Web Architecture 101](/courses/foundation/web-architecture-101)
+### [Intro to Web Architecture](/courses/foundation/intro-to-web-architecture)
 
 - [ ] Understand the key components of a web application
 - [ ] Know what happens when you enter a URL in a web browser
