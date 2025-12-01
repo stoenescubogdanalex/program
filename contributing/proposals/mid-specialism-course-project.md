@@ -13,15 +13,15 @@ The new Program does not currently include this meal sharing project. We are now
 We'd like to include a similar "big" individual project like the meal sharing in the specialism courses. I'm calling it the "mid specialism course" project for now (catching name, right?!).
 
 Some starting points:
+
 1. It should be the same "theme" across all specialisms, but the implementation requirements differ.
 2. Each specialism has it's own scope based specifically on the course's content. See examples below.
-3. It should be organised  similarly as the mealsharing project, in that it should:
-    1. Be built alongside assignments in existing modules (React, Node, Databases etc.)
-    2. Be an individual project
+3. It should be organised similarly as the mealsharing project, in that it should:
+   1. Be built alongside assignments in existing modules (React, Node, Databases etc.)
+   2. Be an individual project
 4. The content should be separate, and not combined inside other modules content. This makes it easier to maintain and reason about.
 5. The innitial tasks should be clear, but the design and bigger scope should be open, so trainees can practice coming up with their own solutions, and have some scope to "make it their own".
 6. Run with a reduced scope/time (compared to meal sharing) at 3 weeks (up for discussion).
-
 
 ## Main learning goal ideas
 
@@ -58,6 +58,7 @@ Build _only_ the frontend part of the app. Backend data could be provided either
 Build _only_ backend related parts of the app. There would be no end to end app being delivered/deployed. They would focus on building a suitable database and API endpoints, along with documentation.
 
 #### Example deliverables (backend)
+
 1. Trello board with organised/completed tasks
 2. A standalone backend codebase
 3. A database schema/working database
@@ -82,13 +83,13 @@ This proposal was based off the ideas that Bjørn outlied in [this original](htt
 
 The old meal sharing project spanned 6 weeks and was a project involving both frontend and backend development.
 
-| Area | Module | Topic | Description |
-| ---| ---| ---| --- |
-| Backend |[Databases week 3](https://github.com/HackYourFuture-CPH/databases/blob/main/lesson3/README.md#homework) | DB schema & queries | Create the database schema and queries needed for the meal sharing app. Entities include **Meals**, **Reservations**, and **Reviews** |
-| Backend |[Node.js week 1](https://github.com/HackYourFuture-CPH/node.js/blob/main/week1/homework/readme.md#meal-sharing-endpoints) | Simple GET endpoints | Use the project template to connect to the database. Create a few GET endpoints without any arguments which returns **Meals**. Also validate requests and return correct error codes. |
-| Backend |[Node.js week 2](https://github.com/HackYourFuture-CPH/node.js/blob/main/week2/homework/readme.md#meal-sharing-endpoints) | CRUD endpoints with body | Extend the API to contain standard CRUD endpoints for **Meals** and **Reservations**.  |
-| Backend |[Node.js week 3](https://github.com/HackYourFuture-CPH/node.js/blob/main/week3/homework/readme.md#meal-sharing-endpoints) | Advanced endpoints with query parameters | Extend the API to contain standard CRUD endpoints for **Reviews**. Extend **Meal** endpoint to allow for filtering and sorting |
-| Frontend |[React 1 week 3](https://github.com/HackYourFuture-CPH/React/blob/main/react1/week3/homework.md#meal-sharing) | Simple overview of meals | Create a simple page with a list of all meals. Fetch the data from the backend. |
-| Frontend |[React 2 week 1](https://github.com/HackYourFuture-CPH/React/blob/main/react2/week1/homework.md#meal-sharing) | Card based overview of meals | Design the overview page to use a responsive grid of cards. Start using multiple components. |
-| Frontend |[React 2 week 2](https://github.com/HackYourFuture-CPH/React/blob/main/react1/week3/homework.md#meal-sharing) | Add sub pages | Add routing and add a landing page, a meal overview page, and a meal detail page. The meal details page should contain forms to reserve a meal or review it. |
-| Frontend |[Meal sharing session](https://github.com/HackYourFuture-CPH/React/blob/main/react2/Meal-sharing/homework.md#meal-sharing-session) | Add searching, filtering, and sorting | Add searching, filtering, and sorting functionality to the meal overview page, a meal overview page. Show available spots for a meal. Add additional polishing. |
+| Area     | Module                                                                                                                             | Topic                                    | Description                                                                                                                                                                           |
+| -------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Backend  | [Databases week 3](https://github.com/HackYourFuture-CPH/databases/blob/main/lesson3/README.md#homework)                           | DB schema & queries                      | Create the database schema and queries needed for the meal sharing app. Entities include **Meals**, **Reservations**, and **Reviews**                                                 |
+| Backend  | [Node.js week 1](https://github.com/HackYourFuture-CPH/node.js/blob/main/week1/homework/readme.md#meal-sharing-endpoints)          | Simple GET endpoints                     | Use the project template to connect to the database. Create a few GET endpoints without any arguments which returns **Meals**. Also validate requests and return correct error codes. |
+| Backend  | [Node.js week 2](https://github.com/HackYourFuture-CPH/node.js/blob/main/week2/homework/readme.md#meal-sharing-endpoints)          | CRUD endpoints with body                 | Extend the API to contain standard CRUD endpoints for **Meals** and **Reservations**.                                                                                                 |
+| Backend  | [Node.js week 3](https://github.com/HackYourFuture-CPH/node.js/blob/main/week3/homework/readme.md#meal-sharing-endpoints)          | Advanced endpoints with query parameters | Extend the API to contain standard CRUD endpoints for **Reviews**. Extend **Meal** endpoint to allow for filtering and sorting                                                        |
+| Frontend | [React 1 week 3](https://github.com/HackYourFuture-CPH/React/blob/main/react1/week3/homework.md#meal-sharing)                      | Simple overview of meals                 | Create a simple page with a list of all meals. Fetch the data from the backend.                                                                                                       |
+| Frontend | [React 2 week 1](https://github.com/HackYourFuture-CPH/React/blob/main/react2/week1/homework.md#meal-sharing)                      | Card based overview of meals             | Design the overview page to use a responsive grid of cards. Start using multiple components.                                                                                          |
+| Frontend | [React 2 week 2](https://github.com/HackYourFuture-CPH/React/blob/main/react1/week3/homework.md#meal-sharing)                      | Add sub pages                            | Add routing and add a landing page, a meal overview page, and a meal detail page. The meal details page should contain forms to reserve a meal or review it.                          |
+| Frontend | [Meal sharing session](https://github.com/HackYourFuture-CPH/React/blob/main/react2/Meal-sharing/homework.md#meal-sharing-session) | Add searching, filtering, and sorting    | Add searching, filtering, and sorting functionality to the meal overview page, a meal overview page. Show available spots for a meal. Add additional polishing.                       |
