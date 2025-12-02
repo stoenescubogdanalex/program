@@ -37,7 +37,7 @@ Some starting points:
 
 The main concept is to keep a consistent theme across specialisms, but course-specific deliverables. This gives us flexibility if we change or create new specialisms, since they are not dependent on the same implementation details..
 
-By keeping the projects entirely specialism bounded (e.g. backend only build the backend, rather then a full stack app), we can keep maintainence of boiler plate/starting codebases to a minimal.
+By keeping the projects entirely specialism bounded (e.g. backend only build the backend, rather than a full stack app), we can keep maintainence of boiler plate/starting codebases to a minimal.
 
 ### Theme
 
