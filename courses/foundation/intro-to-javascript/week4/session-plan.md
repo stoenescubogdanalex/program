@@ -126,7 +126,7 @@ The expected output above allows for a relatively simple solution mechanism. Thi
 For a bigger challenge, you can try to write the same function for a different exptected output as seen bellow. It will require implementing some additional logic.
 
 ```js
-/* 
+/*
 {
   characters: [
     {
@@ -146,7 +146,7 @@ For a bigger challenge, you can try to write the same function for a different e
       count: 1
     }
   ], length: 5
-} 
+}
 */
 ```
 
