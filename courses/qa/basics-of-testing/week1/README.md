@@ -18,5 +18,3 @@ By the end of this session, you will be able to:
 - [ ] Key QA Terminology - Defect, bug, test case, environment, and other essential terms.
 - [ ] Brief Introduction to Agile - Agile principles and how QA adapts in Agile teams.
 - [ ] QA Mindset and Soft Skills - Critical thinking, attention to detail, communication, and collaboration.
-
-
