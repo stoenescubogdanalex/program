@@ -1,4 +1,4 @@
-# Web Architecture 101
+# Intro to Web Architecture
 
 The purpose of this module is to provide a mental model of how web sites work, some of the key terminology and how these concepts relating to the coming modules on the course.
 
