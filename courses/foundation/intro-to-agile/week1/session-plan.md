@@ -2,7 +2,7 @@
 
 ## Session Outline
 
-1. Lost at sea 
+1. Lost at sea
 2. What is project management?
 3. What is Agile (basic principles and values)?
 4. Basics of Scrum
@@ -67,10 +67,11 @@ Have trainees work individually to rank all 15 items from 1 (most important) to 
 **Script:** "You have 10 minutes to work individually. Read through the scenario and the list of items carefully. Then rank them from 1-15 in order of importance for survival. Write your answers down."
 
 **Facilitation tips:**
+
 - Circulate but don't give hints
 - Ensure everyone understands they need to rank ALL 15 items
 - No ties allowed - every item must have a unique ranking
-- If everyone is done before the time limit move to the next stage to save time. 
+- If everyone is done before the time limit move to the next stage to save time.
 
 ### Stage 2: Team Discussion (15 minutes, but announced as 30)
 
@@ -91,6 +92,7 @@ Interrupt loudly and urgently:
 **Script:** "STOP! I need to interrupt you - It appears to be that the fire got more violent . You actually only have **5 more minutes** to finish and make your final decision. You need to agree NOW or your team has failed the exercise. Continue!"
 
 **What to observe during these 3 minutes:**
+
 - How are decisions made?
 - Do quieter members get overruled in the rush?
 - Do teams make quick, forced decisions without real consensus?
@@ -106,17 +108,19 @@ Interrupt loudly and urgently:
 **Navigate to:** [https://siderdk.github.io/lostAtSea/](https://siderdk.github.io/lostAtSea/)
 
 You can display this page for everyone to see. The webpage shows:
+
 - The expert rankings from the US Coast Guard
 - The reasoning for each ranking
 - Automatic score calculator
 
-If your score is lower than your team's you contributed to their survival, and vice versa :D 
+If your score is lower than your team's you contributed to their survival, and vice versa :D
 
 #### Lead Discussion
 
 You can use some of these questions (or statements) to debrief the exercise and connect to Agile:
 
 **About the Time Pressure:**
+
 - What happened when we suddenly changed the time limit?
 - How did your team respond to that change?
 - Did anyone feel stressed or frustrated? Why?
@@ -124,6 +128,7 @@ You can use some of these questions (or statements) to debrief the exercise and 
 - Did communication styles change? How?
 
 **About Decision-Making:**
+
 - Was it difficult to reach unanimous agreement?
 - What led to disagreements in your team?
 - Did everyone's voice get heard equally, especially under time pressure?
@@ -131,20 +136,22 @@ You can use some of these questions (or statements) to debrief the exercise and 
 - How did your team resolve conflicting opinions?
 
 **About Team Performance:**
+
 - Did your team score better or worse than individual scores?
 - Was working as a team better or worse than working alone? Why?
 - What characteristics make a team succeed under pressure?
 - What would you do differently if you could do this exercise again?
 
 **Connection to Agile (MOST IMPORTANT):**
+
 - In real projects, requirements change suddenly, just like the time limit changed without warning
 - Teams need to adapt quickly and communicate clearly under pressure
 - Unanimous agreement isn't always possible, sometimes you need to make a decision and move forward
 
 **Reflection Questions:**
+
 - How well did you "respond to change"?
 - What parallels do you see between this exercise and real software development?
-
 
 {% endhint %}
 
