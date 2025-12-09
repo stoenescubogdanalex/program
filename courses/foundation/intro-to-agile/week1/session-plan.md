@@ -2,11 +2,12 @@
 
 ## Session Outline
 
-1. What is project management?
-2. What is Agile (basic principles and values)?
-3. Basics of Scrum
-4. Simple project setup
-5. Simple prioritisation
+1. Lost at sea 
+2. What is project management?
+3. What is Agile (basic principles and values)?
+4. Basics of Scrum
+5. Simple project setup
+6. Simple prioritisation
 
 **Note:** This module is in Foundation, which means trainees are not becoming
 specialized developers yet. The above topics should be kept high-level, focusing
@@ -15,6 +16,142 @@ that a principle of Scrum is that decisions are made based on data, but there is
 no need to go into the depths of calculating velocity and burndown charts at
 this point. These full details should be covered more in the specialization
 courses.
+
+---
+
+## Exercise: Lost at Sea
+
+**Purpose:** Experience working under pressure, dealing with sudden change, and making group decisions under stress.
+
+**Time:** 45 minutes total
+
+### The Scenario
+
+You have won the lottery! To celebrate, you decide to take three or four teammates on a fancy holiday. For that you've chartered a yacht, sailing together across the Atlantic Ocean. Since none of you have sailing experience, you hired an experienced captain and two crew members.
+
+Unfortunately, in the middle of the Atlantic, a violent fire breaks out in the ship's galley. The captain and crew disappear. Most of the yacht has been destroyed and the boat is slowly sinking.
+
+Your location is unclear, after all you were busy partying, and the navigation tools and radio were damaged in the fire. Your best estimate is that you may be several hundred kilometers from the nearest beach to land.
+
+You and your friends managed to save 15 undamaged items after the fire. You also saved a four or five-person lifeboat and a box of matches.
+
+**Your task:** Rank the 15 items in order of importance for your survival while waiting to be rescued.
+
+### The 15 Items
+
+- A sextant
+- A small mirror
+- A mosquito net
+- A 25-liter container of drinking water
+- A case of army rations
+- Maps of the Atlantic Ocean
+- A floating seat cushion
+- A 10-liter can of oil and fuel mixture
+- A small transistor radio
+- 2m² of opaque plastic tarp
+- A box of shark repellent
+- A bottle of rum (80% alcohol)
+- 500 meters of nylon rope
+- 2 boxes of chocolate bars
+- A fishing kit with rod
+
+{% hint style="danger" %}
+**🔒 FACILITATOR GUIDE - TRAINEES: STOP HERE**
+
+The section below contains facilitation instructions and strategy. If you are a trainee, do not read further - complete the exercise first!
+
+### Stage 1: Individual Ranking (10 minutes)
+
+Have trainees work individually to rank all 15 items from 1 (most important) to 15 (least important).
+
+**Script:** "You have 10 minutes to work individually. Read through the scenario and the list of items carefully. Then rank them from 1-15 in order of importance for survival. Write your answers down."
+
+**Facilitation tips:**
+- Circulate but don't give hints
+- Ensure everyone understands they need to rank ALL 15 items
+- No ties allowed - every item must have a unique ranking
+- If everyone is done before the time limit move to the next stage to save time. 
+
+### Stage 2: Team Discussion (15 minutes, but announced as 30)
+
+1. Divide trainees into groups of 3-4 people
+2. Have them produce a single ranking of the items per group.
+3. **Announce 30 minutes** for discussion (this is intentional - you will change it!)
+4. Emphasize unanimous decision is required
+5. Start timer
+
+**Script:** "Now you'll work in teams of 3-4 people. You have **30 minutes** to discuss and agree on a single team ranking. You must reach a **unanimous decision** - everyone must agree. Write your team's ranking down."
+
+#### ⚡ THE TIME PRESSURE TRICK
+
+**CRITICAL - After exactly 10 minutes of team discussion:**
+
+Interrupt loudly and urgently:
+
+**Script:** "STOP! I need to interrupt you - It appears to be that the fire got more violent . You actually only have **5 more minutes** to finish and make your final decision. You need to agree NOW or your team has failed the exercise. Continue!"
+
+**What to observe during these 3 minutes:**
+- How are decisions made?
+- Do quieter members get overruled in the rush?
+- Do teams make quick, forced decisions without real consensus?
+- Does anyone question or push back on the time change?
+- How does communication style change under sudden pressure?
+
+**Important:** This sudden change is intentional and is the core learning moment. Don't reveal this beforehand!
+
+### Stage 3: Reveal Solution & Debrief (10 minutes)
+
+#### Reveal the Expert Rankings
+
+**Navigate to:** [https://siderdk.github.io/lostAtSea/](https://siderdk.github.io/lostAtSea/)
+
+You can display this page for everyone to see. The webpage shows:
+- The expert rankings from the US Coast Guard
+- The reasoning for each ranking
+- Automatic score calculator
+
+If your score is lower than your team's you contributed to their survival, and vice versa :D 
+
+#### Lead Discussion
+
+You can use some of these questions (or statements) to debrief the exercise and connect to Agile:
+
+**About the Time Pressure:**
+- What happened when we suddenly changed the time limit?
+- How did your team respond to that change?
+- Did anyone feel stressed or frustrated? Why?
+- Did the quality of your decision-making change under pressure?
+- Did communication styles change? How?
+
+**About Decision-Making:**
+- Was it difficult to reach unanimous agreement?
+- What led to disagreements in your team?
+- Did everyone's voice get heard equally, especially under time pressure?
+- Did some people dominate the conversation?
+- How did your team resolve conflicting opinions?
+
+**About Team Performance:**
+- Did your team score better or worse than individual scores?
+- Was working as a team better or worse than working alone? Why?
+- What characteristics make a team succeed under pressure?
+- What would you do differently if you could do this exercise again?
+
+**Connection to Agile (MOST IMPORTANT):**
+- In real projects, requirements change suddenly, just like the time limit changed without warning
+- Teams need to adapt quickly and communicate clearly under pressure
+- Unanimous agreement isn't always possible, sometimes you need to make a decision and move forward
+
+**Reflection Questions:**
+- How well did you "respond to change"?
+- What parallels do you see between this exercise and real software development?
+
+
+{% endhint %}
+
+{% hint style="info" %}
+**FOR FACILITATORS ONLY**
+
+---
 
 ## What is project management?
 
