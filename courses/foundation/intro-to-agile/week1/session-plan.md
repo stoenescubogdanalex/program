@@ -156,7 +156,6 @@ You can use some of these questions (or statements) to debrief the exercise and 
 {% endhint %}
 
 {% hint style="info" %}
-**FOR FACILITATORS ONLY**
 
 ---
 
