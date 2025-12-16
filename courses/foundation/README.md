@@ -15,7 +15,7 @@ Here you'll learn the fundamentals for how the web works, the basics of programm
 | [Intro to Backend](./intro-to-backend/README.md)                   | 1               |
 | [Intro to Frontend](./intro-to-frontend/README.md)                 | 1               |
 | [Intro to Agile](./intro-to-agile/README.md)                       | 1               |
-| [Career Training](./career-training/README.md)                     | 3 (1 in person) |
+| [Career Training](./career-training/README.md)                     | 2               |
 | [Final project](./final-project/README.md)                         | 3               |
 
 Total: 16 weeks
