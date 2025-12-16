@@ -4,21 +4,21 @@ Here you'll learn the fundamentals for how the web works, the basics of programm
 
 ## Modules
 
-| Name                                                               | Weeks           |
-| ------------------------------------------------------------------ | --------------- |
-| [HTML & CSS](./html-and-css/README.md)                             | 1               |
-| [Git](./git)                                                       | 1               |
-| [Intro to Using AI](./intro-to-using-ai/README.md)                 | 1               |
-| [Intro to JavaScript](./intro-to-javascript/README.md)             | 4               |
-| [Intro to Web Architecture](./intro-to-web-architecture/README.md) | 1               |
-| [Databases](./databases/README.md)                                 | 1               |
-| [Intro to Backend](./intro-to-backend/README.md)                   | 1               |
-| [Intro to Frontend](./intro-to-frontend/README.md)                 | 1               |
-| [Intro to Agile](./intro-to-agile/README.md)                       | 1               |
-| [Career Training](./career-training/README.md)                     | 3 (1 in person) |
-| [Final project](./final-project/README.md)                         | 3               |
+| Name                                                               | Weeks |
+| ------------------------------------------------------------------ | ----- |
+| [HTML & CSS](./html-and-css/README.md)                             | 1     |
+| [Git](./git)                                                       | 1     |
+| [Intro to Using AI](./intro-to-using-ai/README.md)                 | 1     |
+| [Intro to JavaScript](./intro-to-javascript/README.md)             | 4     |
+| [Intro to Web Architecture](./intro-to-web-architecture/README.md) | 1     |
+| [Databases](./databases/README.md)                                 | 1     |
+| [Intro to Backend](./intro-to-backend/README.md)                   | 1     |
+| [Intro to Frontend](./intro-to-frontend/README.md)                 | 1     |
+| [Intro to Agile](./intro-to-agile/README.md)                       | 1     |
+| [Career Training](./career-training/README.md)                     | 2     |
+| [Final project](./final-project/README.md)                         | 3     |
 
-Total: 16 weeks
+Total: 17 weeks
 
 ## Learning goals overview
 
@@ -137,14 +137,12 @@ Total: 16 weeks
 
 ### [Career Training](/courses/foundation/career-training)
 
-- [ ] Understand where to look for suitable jobs and internships.
-- [ ] Understand what you should do in order to be an attractive candidate on the Danish - job market.
-- [ ] Learn how to identify and communicate your competencies.
-- [ ] Understand what HYF can do to support you on your job hunt.
-- [ ] Know how to assemble an effective CV.
-- [ ] Know how to make your LinkedIn page attractive to recruiters.
-- [ ] Learn how to perform well in a screening interview.
-- [ ] How to handle Job Rejection and Job Anxiety
+- [ ] Understand where to look for suitable jobs and internships
+- [ ] Understand what you should do in order to be an attractive candidate on the Danish job market
+- [ ] Learn how to identify and communicate your competencies
+- [ ] Understand what HYF can do to support you on your job hunt
+- [ ] Know how to assemble an effective CV and LinkedIn profile
+- [ ] Learn how to perform well in a screening interview
 
 ### [Foundation Project](/courses/foundation/final-project)
 
