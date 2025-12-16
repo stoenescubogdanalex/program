@@ -10,7 +10,12 @@ We will also bring a camera so that you can get updated photos for your LinkedIn
 
 By the end of this session, you will be able to:
 
-- [ ] TODO
+- [ ] Give a personal elevator pitch clearly and confidently
+- [ ] Learn how to perform well in a screening interview
+- [ ] Understand and practice asking your own questions during the interview
+- [ ] Practice receiving constructive feedback
+- [ ] How to handle job rejection and job anxiety
+- [ ] Feel prepared and ready to take on a real interview
 
 ## Materials
 
