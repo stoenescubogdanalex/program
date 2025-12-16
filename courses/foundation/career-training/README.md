@@ -6,8 +6,8 @@ In this repository you can find all the info and material from your Career Sessi
 
 ## Contents
 
-| Week | Topic                                                                                                                                                                | Preparation                           | Session Plan                            | Assignment               |
-| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | --------------------------------------- | ------------------------ |
+| Week | Topic                                                                                                                                                                | Preparation                           | Session Plan                                          | Assignment               |
+| ---- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------- | ------------------------ |
 | 1.   | [Jobhunting in Denmark](./week1/README.md). Introduction to the Danish job market, job search, and what a strong profile looks like, including your CV and LinkedIn. | [Preparation](./week1/preparation.md) | [Session Plan (for mentors)](./week1/session-plan.md) | (There is no assignment) |
 | 2.   | [Mock Screening Interview](./week2/README.md). Practice the first part of the interview process and gain some feedback.                                              | [Preparation](./week2/preparation.md) | [Session Plan (for mentors)](./week2/session-plan.md) | (No assignment)          |
 
@@ -15,11 +15,9 @@ In this repository you can find all the info and material from your Career Sessi
 
 By the end of this module, you will be able to:
 
-- [ ] Understand where to look for suitable jobs and internships.
-- [ ] Understand what you should do in order to be an attractive candidate on the Danish - job market.
-- [ ] Learn how to identify and communicate your competencies.
-- [ ] Understand what HYF can do to support you on your job hunt.
-- [ ] Know how to assemble an effective CV.
-- [ ] Know how to make your LinkedIn page attractive to recruiters.
-- [ ] Learn how to perform well in a screening interview.
-- [ ] How to handle Job Rejection and Job Anxiety
+- [ ] Understand where to look for suitable jobs and internships
+- [ ] Understand what you should do in order to be an attractive candidate on the Danish job market
+- [ ] Learn how to identify and communicate your competencies
+- [ ] Understand what HYF can do to support you on your job hunt
+- [ ] Know how to assemble an effective CV and LinkedIn profile
+- [ ] Learn how to perform well in a screening interview

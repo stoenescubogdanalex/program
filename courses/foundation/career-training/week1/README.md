@@ -7,7 +7,7 @@ The session will provide an overview of the Danish job market and common expecta
 By the end of this session, you will be able to:
 
 - [ ] Understand where to look for suitable jobs and internships.
-- [ ] Understand what you should do in order to be an attractive candidate on the Danish - job market.
+- [ ] Understand what you should do in order to be an attractive candidate on the Danish job market.
 - [ ] Learn how to identify and communicate your competencies.
 - [ ] Understand what HYF can do to support you on your job hunt.
 - [ ] Know how to assemble an effective CV.

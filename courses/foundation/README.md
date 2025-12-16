@@ -137,14 +137,12 @@ Total: 17 weeks
 
 ### [Career Training](/courses/foundation/career-training)
 
-- [ ] Understand where to look for suitable jobs and internships.
-- [ ] Understand what you should do in order to be an attractive candidate on the Danish - job market.
-- [ ] Learn how to identify and communicate your competencies.
-- [ ] Understand what HYF can do to support you on your job hunt.
-- [ ] Know how to assemble an effective CV.
-- [ ] Know how to make your LinkedIn page attractive to recruiters.
-- [ ] Learn how to perform well in a screening interview.
-- [ ] How to handle Job Rejection and Job Anxiety
+- [ ] Understand where to look for suitable jobs and internships
+- [ ] Understand what you should do in order to be an attractive candidate on the Danish job market
+- [ ] Learn how to identify and communicate your competencies
+- [ ] Understand what HYF can do to support you on your job hunt
+- [ ] Know how to assemble an effective CV and LinkedIn profile
+- [ ] Learn how to perform well in a screening interview
 
 ### [Foundation Project](/courses/foundation/final-project)
 
