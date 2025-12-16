@@ -1,6 +1,6 @@
 # Career Training (Week 2)
 
-This session is for practicing for a screening interview and receiving feedback from peers and volunteers. 
+This session is for practicing for a screening interview and receiving feedback from peers and volunteers.
 
 You've made a lot of progress on your CVs and LinkedIn profiles so far, and now you get the opportunity to practice a screening interview. Watch out in your teams' slack channel, where you will receive a case to prepare for.
 

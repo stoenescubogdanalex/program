@@ -1,6 +1,7 @@
 # Assignment
 
-# Update your CV and LinkedIn
+## Update your CV and LinkedIn
+
 1. Read the [CV Guide by HYF](https://github.com/HackYourFuture-CPH/yourpersonalbrand/blob/main/yourcurriculum.md) (20mins)
 1. Add your current email address, LinkedIn profile and GitHub profile to your Slack profile
 1. Polish and update your LinkedIn ([example 1](https://www.linkedin.com/in/alex-sudar/), [example 2](https://www.linkedin.com/in/remyamm/), [example 3](https://www.linkedin.com/in/saloumehsarabi/), [example 4](https://www.linkedin.com/in/anna-louise-jensen-559a89177/))

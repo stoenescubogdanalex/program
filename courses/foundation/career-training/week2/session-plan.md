@@ -5,6 +5,7 @@ This session is focused on realistic screening interviews, peer feedback, and vo
 ## Session Goal
 
 Create a realistic but supportive interview environment where trainees can:
+
 1. Practice giving their elevator pitch clearly and confidently
 1. Gain actionable feedback on both technical and soft skills
 1. Improve their readiness for real interviews
