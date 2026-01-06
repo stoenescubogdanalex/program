@@ -1,5 +1,9 @@
 # Session Plan
 
+The idea behind this session is to teach how AI can be used in the day-to-day development workflows of a developer.
+
+Start by giving a brief overview of a usual workflow, and then dive into specific parts of it and how AI can help there, with specific prompts and exercises to practice.
+
 ## AI in the development workflow
 
 ### Workflow overview
