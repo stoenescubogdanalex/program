@@ -92,7 +92,7 @@ TODO add some prompting examples here, as well as good follow up prompts
 
 #### Exercise 2
 
-Use AI to help explain the code in [Exercise 2](). Ask follow up questions until you have a good grasp of what every function and line of code is achieving.
+Use AI to help explain the code in [Exercise 2](TODO create and insert link here). Ask follow up questions until you have a good grasp of what every function and line of code is achieving.
 
 TODO write the exercise code, inspired by [exercise](https://github.com/hosseinzahed/github-copilot-use-cases/blob/main/01-code-explanation.py)
 
