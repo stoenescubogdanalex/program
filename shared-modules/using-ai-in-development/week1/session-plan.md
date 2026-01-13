@@ -29,7 +29,7 @@ Here's some examples:
 
 Learn quickly by mapping new knowledge to things you already understand.
 
-```
+```prompt
 I know how to do X in <this language I already know>:
 
 <paste code snippet here>
@@ -44,7 +44,7 @@ Show me how to write the same functionality in <new language> and explain:
 
 Learn a new language/framework/tool through practice, and getting feedback to improve.
 
-```
+```prompt
 I'm learning how to do X in <language/framework/tool>. Here is my current solution:
 
 <paste code snippet here>
@@ -60,7 +60,7 @@ Review this as if I were a junior developer:
 
 If you have a big topic ahead of you, get help to create a learning path to help you stay on track and avoid becoming overwhelemed.
 
-```
+```prompt
 I want to learn X as a developer who already knows Y and Z. Create a 4 week self-study plan focussed on hands-on coding practice.
 
 For each week, include:
@@ -97,7 +97,7 @@ Use AI to help explain the code in [Exercise 2](). Ask follow up questions until
 TODO write the exercise code, inspired by [exercise](https://github.com/hosseinzahed/github-copilot-use-cases/blob/main/01-code-explanation.py)
 
 ### Implementation - Learning new approaches
-While writing code, you may come across a roadblock where you're not entirely sure how to implement something. 
+While writing code, you may come across a roadblock where you're not entirely sure how to implement something.
 
 TODO add some prompting examples here
 
@@ -133,7 +133,7 @@ TODO write the exercise code, inspired by [exercise](https://github.com/hosseinz
 
 ### Implementation - Documentation generation
 
-AI is not only useful in generating code, but also documentation. 
+AI is not only useful in generating code, but also documentation.
 
 TODO add some prompting examples here
 
@@ -184,13 +184,13 @@ We don't know the future for sure, that's what makes it exciting. There are some
 #### Tips
 
 1. Stay in the loop of AI developments
-    - Follow key organisations in the space (OpenAI, Anthropic, Microsoft/Github, Google/Gemini)
-    - Join in conversations with other developers online and offline to see what they're experiencing
-    - Follow AI related news
+    * Follow key organisations in the space (OpenAI, Anthropic, Microsoft/Github, Google/Gemini)
+    * Join in conversations with other developers online and offline to see what they're experiencing
+    * Follow AI related news
 
 2. Learn and practice with new tools/features
-    - Try out new AI features and capabilities as they are released
-    - Use AI tools in your real projects to practice
+    * Try out new AI features and capabilities as they are released
+    * Use AI tools in your real projects to practice
 
 3. Integrate useful parts into your own workflow
-    - Whatever you find works well, integrate it into your own daily working practices
+    * Whatever you find works well, integrate it into your own daily working practices
