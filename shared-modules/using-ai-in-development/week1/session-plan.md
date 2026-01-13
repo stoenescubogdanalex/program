@@ -155,6 +155,14 @@ Use AI to get some structured feedback on improving the code in [Exercise 7](), 
 
 TODO write the exercise and supporting code
 
+### Agent mode
+
+TODO explain a little what agent mode is and how it differs to "edit" mode. Maybe warn that it will use up a lot more of your usage credits. Reminder of our [AI usage guidelines](https://program.hackyourfuture.dk/guidelines/ai-usage), and for HYF assignments and projects
+
+#### Exercise 8
+
+TODO this should be a small exercise to show how the agent flow works. Could be something similar to [this](https://github.com/hosseinzahed/github-copilot-use-cases/blob/main/19-copilot-agent.md). Suggest instead that trainees explore using agent mode further on their own personal projects we do not allow generating full coding solutions.
+
 ## AI in the workplace
 
 ### Ethics, legal and risk considerations
