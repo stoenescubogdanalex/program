@@ -10,7 +10,7 @@ In this class, trainees will learn how to use [React](https://react.dev/) to bui
 | 4.   | [Context, Routing & Libraries](./week4/README.md)   | [Preparation](./week4/preparation.md) | [Assignment](./week4/assignment.md) | [Session plan](./week4/session-plan.md) |
 | 5.   | [Hello Next.js & Vercel](./week5/README.md)         | [Preparation](./week5/preparation.md) | [Assignment](./week5/assignment.md) | [Session plan](./week5/session-plan.md) |
 
-# Module Learning Goals
+## Module Learning Goals
 
 By the end of this module, you will be able to:
 

@@ -6,7 +6,6 @@ The main goal of this module is to become comfortable with branches, merge confl
 | ---- | --------------------------------- | ------------------------------------- | --------------------------------------- | ----------------------------------- |
 | 1.   | [Advanced Git](./week1/README.md) | [Preparation](./week1/preparation.md) | [Session Plan](./week1/session-plan.md) | [Assignment](./week1/assignment.md) |
 
-
 ## Module Learning Goals
 
 By the end of this module, you will be able to:
