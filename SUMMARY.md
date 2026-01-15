@@ -173,8 +173,8 @@
       - [Assignment](shared-modules/using-ai-in-development/week1/assignment.md)
   - [Specialist Career Training](shared-modules/specialist-career-training/README.md)
   - [Specialism Final Projects](shared-modules/final-project/README.md)
-      - [Frontend Course Requirements](shared-modules/final-project/Frontend.md)
-      - [Backend Course Requirements](shared-modules/final-project/Backend.md)
+    - [Frontend Course Requirements](shared-modules/final-project/Frontend.md)
+    - [Backend Course Requirements](shared-modules/final-project/Backend.md)
 
 ## Guidelines
 
