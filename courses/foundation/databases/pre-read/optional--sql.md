@@ -79,13 +79,13 @@ WHERE e.date > '2025-11-01'
 
 the output of your query will be provided with column names in the output table like so:
 
-```
+```sql
 COURSE_NAME | ENROLLMENT_DATE | TERM
 ```
 
 instead of:
 
-```
+```sql
 c.name | e.date | e.term
 ```
 
