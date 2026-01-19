@@ -27,7 +27,7 @@ Note: Trainees will work in pairs to compelete the project. These pairs will hav
 
 The final session acts as a showcase for the projects. Here is an outline that can be shared with trainees:
 
-```
+```plaintext
 🎮 Final Project Presentation Guidelines
 When: 3rd week of the Foundation project
 Duration: 7–10 minutes per team
