@@ -83,7 +83,16 @@ Total: 18 weeks
 
 ### [Final Project](/courses/backend/final-project)
 
-> ⚠️ "Learning goals" section is empty in `courses/backend/final-project`
+- [ ] Collaborate effectively in a team setting
+  - [ ] Read and extend/improve other peoples code
+  - [ ] Give and receive constructive PR feedback
+  - [ ] Plan, communicate and coordinate technical tasks / solutions upfront before implementation
+- [ ] Develop self-guided learning skills (e.g. learn to read documetation for a new tool or API)
+- [ ] Interpret a problem statement and specs/wireframes/prototypes into buildable requirements
+- [ ] Break down bigger problems into smaller, actionable written tasks
+- [ ] Work in iterative sprints and achieve deadlines
+- [ ] Ask for help effectively and at the right time (e.g. describing problems to mentors, asking online, and knowing the power _and_ limitations of using AI)
+- [ ] Deploy a completed project you are proud to showcase on your portfolio
 
 <!-- END generate:learning-goals -->
 <!-- prettier-ignore-end -->
