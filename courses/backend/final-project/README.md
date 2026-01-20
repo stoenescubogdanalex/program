@@ -31,4 +31,4 @@ By the end of this session, you will be able to:
 
 ## Requirements
 
-See [Backend Requirements](backend-requirements.md).
+See [Requirements](backend-requirements.md).
