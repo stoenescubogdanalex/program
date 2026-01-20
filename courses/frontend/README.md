@@ -12,7 +12,7 @@ This specialism course is focused on setting you up to land a Frontend Developer
 | [React](./react/README.md)                                                         | 5     |
 | [Specialist Career Training](/shared-modules/specialist-career-training/README.md) | 2     |
 | [Agile Teamwork](/shared-modules/agile-teamwork/README.md)                         | 1     |
-| [Final project](./final-project/README.md)                                         | 5     |
+| [Final Project](./final-project/README.md)                                         | 5     |
 
 Total: 19 weeks
 
@@ -74,9 +74,18 @@ Total: 19 weeks
 - [ ] Understand how these skills and practices impact and support agility
 - [ ] Be able to organise a very well structured project in collaboration with other developers for the final project
 
-### [Final Frontend Project](/courses/frontend/final-project)
+### [Final Project](/courses/frontend/final-project)
 
-> ⚠️ "Learning goals" section is empty in `courses/frontend/final-project`
+- [ ] Collaborate effectively in a team setting
+  - [ ] Read and extend/improve other peoples code
+  - [ ] Give and receive constructive PR feedback
+  - [ ] Plan, communicate and coordinate technical tasks / solutions upfront before implementation
+- [ ] Develop self-guided learning skills (e.g. learn to read documetation for a new tool or API)
+- [ ] Interpret a problem statement and specs/wireframes/prototypes into buildable requirements
+- [ ] Break down bigger problems into smaller, actionable written tasks
+- [ ] Work in iterative sprints and achieve deadlines
+- [ ] Ask for help effectively and at the right time (e.g. describing problems to mentors, asking online, and knowing the power _and_ limitations of using AI)
+- [ ] Deploy a completed project you are proud to showcase on your portfolio
 
 <!-- END generate:learning-goals -->
 <!-- prettier-ignore-end -->
