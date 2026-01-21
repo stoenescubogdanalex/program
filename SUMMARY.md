@@ -178,8 +178,3 @@
       - [Session Plan](shared-modules/using-ai-in-development/week1/session-plan.md)
       - [Assignment](shared-modules/using-ai-in-development/week1/assignment.md)
   - [Specialist Career Training](shared-modules/specialist-career-training/README.md)
-
-## Guidelines
-
-- [Code of Conduct](guidelines/code-of-conduct.md)
-- [Using Generative AI at HackYourFuture](guidelines/ai-usage.md)
