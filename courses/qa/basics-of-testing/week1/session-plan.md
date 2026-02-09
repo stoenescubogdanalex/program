@@ -8,7 +8,7 @@
 Agenda
 
 1. Session Introduction
-   Brief introduction to the session topic
+    - Brief introduction to the session topic
    What will be covered during this session
 2. What Is Quality?
    What “quality” means in software
