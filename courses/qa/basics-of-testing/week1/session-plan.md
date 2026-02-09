@@ -2,7 +2,7 @@
 
 > [!TIP]
 > Session duration: 2–2.5 hours
-> Session overview
+## Session Overview
 > In this session, we will introduce the fundamentals of software testing and quality assurance. The goal is to build a shared understanding of what “quality” and “testing” mean, what the role of a tester is, and how testing fits into the software development process. This session focuses on concepts and mindset, not tools or automation.
 
 Agenda
